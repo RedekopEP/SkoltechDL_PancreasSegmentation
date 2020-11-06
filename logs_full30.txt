@@ -1,0 +1,68 @@
+[2019-05-29 20:23:15,284] Starting training with params:
+{'name': '3d_unet_full/0', 'model': 'models_zoo.segmentation.unet3d.Modified3DUNet', 'model_params': {'n_classes': 1}, 'loss': 'losses.LossBinaryDice', 'loss_params': {}, 'metrics': ['metrics.Dice'], 'steps_per_epoch': 2500, 'new_save': True, 'name_save': 'tt_1', 'save_dir': PosixPath('../weights/3d_unet_full/0')}
+
+
+[2019-05-29 20:23:43,382] Starting stage:
+{'load_best': False, 'optimizer': 'Adam', 'optimizer_params': {'lr': 0.0003}, 'scheduler': 'ReduceLROnPlateau', 'scheduler_params': {'patience': 15, 'factor': 0.5, 'min_lr': 1e-06, 'verbose': True}, 'epochs': 500, 'augmentation': 'mix_transform'}
+
+[2019-05-29 20:23:43,382] Epoch 0 | optimizer "Adam" | lr 0.0003
+[2019-05-29 20:41:17,557] Starting training with params:
+{'name': '3d_unet_full/0', 'model': 'models_zoo.segmentation.unet3d.Modified3DUNet', 'model_params': {'n_classes': 1}, 'loss': 'losses.LossBinaryDice', 'loss_params': {}, 'metrics': ['metrics.Dice'], 'steps_per_epoch': 2500, 'new_save': True, 'name_save': 'tt_1', 'save_dir': PosixPath('../weights/3d_unet_full/0')}
+
+
+[2019-05-29 20:41:43,587] Starting stage:
+{'load_best': False, 'optimizer': 'Adam', 'optimizer_params': {'lr': 0.0003}, 'scheduler': 'ReduceLROnPlateau', 'scheduler_params': {'patience': 15, 'factor': 0.5, 'min_lr': 1e-06, 'verbose': True}, 'epochs': 500, 'augmentation': 'mix_transform'}
+
+[2019-05-29 20:41:43,588] Epoch 0 | optimizer "Adam" | lr 0.0003
+[2019-05-29 20:43:05,669] Starting training with params:
+{'name': '3d_unet_full/0', 'model': 'models_zoo.segmentation.unet3d.Modified3DUNet', 'model_params': {'n_classes': 1}, 'loss': 'losses.LossBinaryDice', 'loss_params': {}, 'metrics': ['metrics.Dice'], 'steps_per_epoch': 2500, 'new_save': True, 'name_save': 'tt_1', 'save_dir': PosixPath('../weights/3d_unet_full/0')}
+
+
+[2019-05-29 20:43:39,604] Starting stage:
+{'load_best': False, 'optimizer': 'Adam', 'optimizer_params': {'lr': 0.0003}, 'scheduler': 'ReduceLROnPlateau', 'scheduler_params': {'patience': 15, 'factor': 0.5, 'min_lr': 1e-06, 'verbose': True}, 'epochs': 500, 'augmentation': 'mix_transform'}
+
+[2019-05-29 20:43:39,604] Epoch 0 | optimizer "Adam" | lr 0.0003
+[2019-05-29 20:44:58,661] Starting training with params:
+{'name': '3d_unet_full/0', 'model': 'models_zoo.segmentation.unet3d.Modified3DUNet', 'model_params': {'n_classes': 1}, 'loss': 'losses.LossBinaryDice', 'loss_params': {}, 'metrics': ['metrics.Dice'], 'steps_per_epoch': 2500, 'new_save': True, 'name_save': 'tt_1', 'save_dir': PosixPath('../weights/3d_unet_full/0')}
+
+
+[2019-05-29 20:45:30,455] Starting stage:
+{'load_best': False, 'optimizer': 'Adam', 'optimizer_params': {'lr': 0.0003}, 'scheduler': 'ReduceLROnPlateau', 'scheduler_params': {'patience': 15, 'factor': 0.5, 'min_lr': 1e-06, 'verbose': True}, 'epochs': 500, 'augmentation': 'mix_transform'}
+
+[2019-05-29 20:45:30,456] Epoch 0 | optimizer "Adam" | lr 0.0003
+[2019-05-29 22:25:59,139] Train metrics: loss: 0.89741 | metrics.Dice: -0.14452 | grad: 0.40246
+[2019-05-29 22:25:59,140] Valid metrics: loss: 0.89581 | metrics.Dice: -0.12779
+
+[2019-05-29 22:25:59,205] Epoch 1 | optimizer "Adam" | lr 0.0003
+[2019-05-29 23:48:24,284] Train metrics: loss: 0.81454 | metrics.Dice: -0.20594 | grad: 0.34340
+[2019-05-29 23:48:24,285] Valid metrics: loss: 0.89836 | metrics.Dice: -0.12458
+
+[2019-05-29 23:48:24,285] Epoch 2 | optimizer "Adam" | lr 0.0003
+[2019-05-30 01:07:53,363] Train metrics: loss: 0.81073 | metrics.Dice: -0.20968 | grad: 0.26042
+[2019-05-30 01:07:53,364] Valid metrics: loss: 0.88606 | metrics.Dice: -0.13807
+
+[2019-05-30 01:07:53,413] Epoch 3 | optimizer "Adam" | lr 0.0003
+[2019-05-30 02:28:36,184] Train metrics: loss: 0.80962 | metrics.Dice: -0.21058 | grad: 0.26759
+[2019-05-30 02:28:36,185] Valid metrics: loss: 0.87872 | metrics.Dice: -0.14351
+
+[2019-05-30 02:28:36,235] Epoch 4 | optimizer "Adam" | lr 0.0003
+[2019-05-30 09:37:53,250] Starting training with params:
+{'name': '3d_unet_full/0', 'model': 'models_zoo.segmentation.unet3d.Modified3DUNet', 'model_params': {'n_classes': 1}, 'loss': 'losses.LossBinaryDice', 'loss_params': {}, 'metrics': ['metrics.Dice'], 'steps_per_epoch': 2500, 'new_save': True, 'weights': '../weights/3d_unet_full/0/tt_1_0.14351.pt', 'name_save': 'tt_2', 'save_dir': PosixPath('../weights/3d_unet_full/0')}
+
+
+[2019-05-30 09:38:04,717] Starting stage:
+{'load_best': False, 'optimizer': 'Adam', 'optimizer_params': {'lr': 0.0003}, 'scheduler': 'ReduceLROnPlateau', 'scheduler_params': {'patience': 15, 'factor': 0.5, 'min_lr': 1e-06, 'verbose': True}, 'epochs': 500, 'augmentation': 'mix_transform'}
+
+[2019-05-30 09:38:04,717] Epoch 0 | optimizer "Adam" | lr 0.0003
+[2019-05-30 10:40:40,101] Train metrics: loss: 0.71424 | metrics.Dice: -0.30357 | grad: 0.95490
+[2019-05-30 10:40:40,102] Valid metrics: loss: 0.77936 | metrics.Dice: -0.24019
+
+[2019-05-30 10:40:40,134] Epoch 1 | optimizer "Adam" | lr 0.0003
+[2019-05-30 11:40:12,930] Train metrics: loss: 0.62187 | metrics.Dice: -0.39422 | grad: 1.34136
+[2019-05-30 11:40:12,930] Valid metrics: loss: 0.70941 | metrics.Dice: -0.30736
+
+[2019-05-30 11:40:12,965] Epoch 2 | optimizer "Adam" | lr 0.0003
+[2019-05-30 12:43:27,332] Train metrics: loss: 0.54113 | metrics.Dice: -0.47312 | grad: 1.48284
+[2019-05-30 12:43:27,333] Valid metrics: loss: 0.72515 | metrics.Dice: -0.29106
+
+[2019-05-30 12:43:27,333] Epoch 3 | optimizer "Adam" | lr 0.0003

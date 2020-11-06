@@ -1,0 +1,2304 @@
+[2019-05-27 09:55:49,201] Starting training with params:
+{'name': '3d_unet_with_transform_organ_26_27_new/0', 'model': 'models_zoo.segmentation.unet3d.Modified3DUNet', 'model_params': {'n_classes': 1}, 'loss': 'losses.LossBinaryDice', 'loss_params': {}, 'metrics': ['metrics.Dice'], 'steps_per_epoch': 2500, 'new_save': True, 'name_save': 'tt_1', 'save_dir': PosixPath('../weights/3d_unet_with_transform_organ_26_27_new/0')}
+
+
+[2019-05-27 09:55:50,730] Starting stage:
+{'load_best': False, 'optimizer': 'Adam', 'optimizer_params': {'lr': 0.0003}, 'scheduler': 'ReduceLROnPlateau', 'scheduler_params': {'patience': 15, 'factor': 0.5, 'min_lr': 1e-06, 'verbose': True}, 'epochs': 500, 'augmentation': 'mix_transform'}
+
+[2019-05-27 09:55:50,730] Epoch 0 | optimizer "Adam" | lr 0.0003
+[2019-05-27 09:58:16,238] Train metrics: loss: 1.26061 | metrics.Dice: -0.06915 | grad: 0.85437
+[2019-05-27 09:58:16,238] Valid metrics: loss: 1.13858 | metrics.Dice: -0.08280
+
+[2019-05-27 09:58:16,271] Epoch 1 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:00:19,456] Train metrics: loss: 1.11328 | metrics.Dice: -0.08701 | grad: 0.40375
+[2019-05-27 10:00:19,457] Valid metrics: loss: 1.09140 | metrics.Dice: -0.08742
+
+[2019-05-27 10:00:19,500] Epoch 2 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:02:27,871] Train metrics: loss: 1.07995 | metrics.Dice: -0.09741 | grad: 0.28786
+[2019-05-27 10:02:27,871] Valid metrics: loss: 1.06139 | metrics.Dice: -0.09711
+
+[2019-05-27 10:02:27,912] Epoch 3 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:04:30,559] Train metrics: loss: 1.04922 | metrics.Dice: -0.11804 | grad: 0.32134
+[2019-05-27 10:04:30,559] Valid metrics: loss: 1.02009 | metrics.Dice: -0.13769
+
+[2019-05-27 10:04:30,594] Epoch 4 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:06:37,722] Train metrics: loss: 0.98604 | metrics.Dice: -0.17559 | grad: 0.65682
+[2019-05-27 10:06:37,722] Valid metrics: loss: 0.99054 | metrics.Dice: -0.16782
+
+[2019-05-27 10:06:37,762] Epoch 5 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:08:41,034] Train metrics: loss: 0.94213 | metrics.Dice: -0.21090 | grad: 0.69068
+[2019-05-27 10:08:41,034] Valid metrics: loss: 0.92139 | metrics.Dice: -0.21797
+
+[2019-05-27 10:08:41,067] Epoch 6 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:10:41,828] Train metrics: loss: 0.91570 | metrics.Dice: -0.23186 | grad: 0.65638
+[2019-05-27 10:10:41,828] Valid metrics: loss: 0.89914 | metrics.Dice: -0.24547
+
+[2019-05-27 10:10:41,863] Epoch 7 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:12:43,455] Train metrics: loss: 0.90743 | metrics.Dice: -0.24014 | grad: 0.68406
+[2019-05-27 10:12:43,455] Valid metrics: loss: 0.92742 | metrics.Dice: -0.22986
+
+[2019-05-27 10:12:43,455] Epoch 8 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:14:44,210] Train metrics: loss: 0.88865 | metrics.Dice: -0.25768 | grad: 0.69873
+[2019-05-27 10:14:44,210] Valid metrics: loss: 0.89390 | metrics.Dice: -0.25360
+
+[2019-05-27 10:14:44,248] Epoch 9 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:16:54,009] Train metrics: loss: 0.89031 | metrics.Dice: -0.25462 | grad: 0.58914
+[2019-05-27 10:16:54,009] Valid metrics: loss: 0.88034 | metrics.Dice: -0.26203
+
+[2019-05-27 10:16:54,044] Epoch 10 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:18:58,419] Train metrics: loss: 0.88990 | metrics.Dice: -0.25680 | grad: 0.61436
+[2019-05-27 10:18:58,420] Valid metrics: loss: 0.88451 | metrics.Dice: -0.26261
+
+[2019-05-27 10:18:58,459] Epoch 11 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:21:00,375] Train metrics: loss: 0.87699 | metrics.Dice: -0.26854 | grad: 0.59455
+[2019-05-27 10:21:00,375] Valid metrics: loss: 0.88091 | metrics.Dice: -0.26070
+
+[2019-05-27 10:21:00,375] Epoch 12 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:23:00,176] Train metrics: loss: 0.87129 | metrics.Dice: -0.27198 | grad: 0.53258
+[2019-05-27 10:23:00,176] Valid metrics: loss: 0.87674 | metrics.Dice: -0.26552
+
+[2019-05-27 10:23:00,214] Epoch 13 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:25:00,512] Train metrics: loss: 0.86986 | metrics.Dice: -0.27459 | grad: 0.56828
+[2019-05-27 10:25:00,512] Valid metrics: loss: 0.88090 | metrics.Dice: -0.26598
+
+[2019-05-27 10:25:00,556] Epoch 14 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:27:07,759] Train metrics: loss: 0.86461 | metrics.Dice: -0.27888 | grad: 0.57723
+[2019-05-27 10:27:07,759] Valid metrics: loss: 0.86038 | metrics.Dice: -0.27877
+
+[2019-05-27 10:27:07,805] Epoch 15 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:29:14,444] Train metrics: loss: 0.86688 | metrics.Dice: -0.27871 | grad: 0.55979
+[2019-05-27 10:29:14,444] Valid metrics: loss: 0.88310 | metrics.Dice: -0.26247
+
+[2019-05-27 10:29:14,444] Epoch 16 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:31:16,788] Train metrics: loss: 0.86607 | metrics.Dice: -0.27957 | grad: 0.54426
+[2019-05-27 10:31:16,788] Valid metrics: loss: 0.87750 | metrics.Dice: -0.26792
+
+[2019-05-27 10:31:16,788] Epoch 17 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:33:19,254] Train metrics: loss: 0.86282 | metrics.Dice: -0.28086 | grad: 0.53349
+[2019-05-27 10:33:19,254] Valid metrics: loss: 0.85978 | metrics.Dice: -0.28057
+
+[2019-05-27 10:33:19,286] Epoch 18 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:35:22,969] Train metrics: loss: 0.85728 | metrics.Dice: -0.28826 | grad: 0.55858
+[2019-05-27 10:35:22,969] Valid metrics: loss: 0.86628 | metrics.Dice: -0.26843
+
+[2019-05-27 10:35:22,969] Epoch 19 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:37:32,758] Train metrics: loss: 0.85153 | metrics.Dice: -0.29057 | grad: 0.51868
+[2019-05-27 10:37:32,758] Valid metrics: loss: 0.83188 | metrics.Dice: -0.29821
+
+[2019-05-27 10:37:32,792] Epoch 20 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:39:34,655] Train metrics: loss: 0.84585 | metrics.Dice: -0.29698 | grad: 0.54265
+[2019-05-27 10:39:34,655] Valid metrics: loss: 0.85951 | metrics.Dice: -0.28074
+
+[2019-05-27 10:39:34,655] Epoch 21 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:41:40,075] Train metrics: loss: 0.83824 | metrics.Dice: -0.30360 | grad: 0.57473
+[2019-05-27 10:41:40,075] Valid metrics: loss: 0.83771 | metrics.Dice: -0.29820
+
+[2019-05-27 10:41:40,075] Epoch 22 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:43:41,951] Train metrics: loss: 0.84357 | metrics.Dice: -0.29858 | grad: 0.57287
+[2019-05-27 10:43:41,951] Valid metrics: loss: 0.85904 | metrics.Dice: -0.27947
+
+[2019-05-27 10:43:41,951] Epoch 23 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:45:50,920] Train metrics: loss: 0.83239 | metrics.Dice: -0.30895 | grad: 0.57993
+[2019-05-27 10:45:50,920] Valid metrics: loss: 0.81034 | metrics.Dice: -0.32430
+
+[2019-05-27 10:45:50,955] Epoch 24 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:47:56,068] Train metrics: loss: 0.82789 | metrics.Dice: -0.31397 | grad: 0.58482
+[2019-05-27 10:47:56,069] Valid metrics: loss: 0.80525 | metrics.Dice: -0.32338
+
+[2019-05-27 10:47:56,069] Epoch 25 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:49:58,256] Train metrics: loss: 0.82779 | metrics.Dice: -0.31251 | grad: 0.60972
+[2019-05-27 10:49:58,256] Valid metrics: loss: 0.80363 | metrics.Dice: -0.32416
+
+[2019-05-27 10:49:58,257] Epoch 26 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:52:01,867] Train metrics: loss: 0.82139 | metrics.Dice: -0.31940 | grad: 0.63565
+[2019-05-27 10:52:01,867] Valid metrics: loss: 0.79775 | metrics.Dice: -0.32883
+
+[2019-05-27 10:52:01,907] Epoch 27 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:54:09,688] Train metrics: loss: 0.81728 | metrics.Dice: -0.32219 | grad: 0.62123
+[2019-05-27 10:54:09,688] Valid metrics: loss: 0.82015 | metrics.Dice: -0.31816
+
+[2019-05-27 10:54:09,688] Epoch 28 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:56:17,424] Train metrics: loss: 0.81288 | metrics.Dice: -0.32654 | grad: 0.61037
+[2019-05-27 10:56:17,425] Valid metrics: loss: 0.81620 | metrics.Dice: -0.31545
+
+[2019-05-27 10:56:17,425] Epoch 29 | optimizer "Adam" | lr 0.0003
+[2019-05-27 10:58:19,107] Train metrics: loss: 0.81124 | metrics.Dice: -0.32927 | grad: 0.62157
+[2019-05-27 10:58:19,107] Valid metrics: loss: 0.81823 | metrics.Dice: -0.31155
+
+[2019-05-27 10:58:19,107] Epoch 30 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:00:20,305] Train metrics: loss: 0.81417 | metrics.Dice: -0.32542 | grad: 0.66762
+[2019-05-27 11:00:20,305] Valid metrics: loss: 0.81933 | metrics.Dice: -0.31673
+
+[2019-05-27 11:00:20,305] Epoch 31 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:02:21,155] Train metrics: loss: 0.79765 | metrics.Dice: -0.34040 | grad: 0.61282
+[2019-05-27 11:02:21,155] Valid metrics: loss: 0.86194 | metrics.Dice: -0.28468
+
+[2019-05-27 11:02:21,155] Epoch 32 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:04:28,864] Train metrics: loss: 0.80136 | metrics.Dice: -0.33746 | grad: 0.67817
+[2019-05-27 11:04:28,864] Valid metrics: loss: 0.81187 | metrics.Dice: -0.31936
+
+[2019-05-27 11:04:28,865] Epoch 33 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:06:35,955] Train metrics: loss: 0.79586 | metrics.Dice: -0.34143 | grad: 0.66193
+[2019-05-27 11:06:35,955] Valid metrics: loss: 0.78857 | metrics.Dice: -0.33809
+
+[2019-05-27 11:06:35,988] Epoch 34 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:08:37,429] Train metrics: loss: 0.79966 | metrics.Dice: -0.33887 | grad: 0.63404
+[2019-05-27 11:08:37,429] Valid metrics: loss: 0.78675 | metrics.Dice: -0.34649
+
+[2019-05-27 11:08:37,467] Epoch 35 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:10:38,633] Train metrics: loss: 0.77771 | metrics.Dice: -0.35709 | grad: 0.65077
+[2019-05-27 11:10:38,633] Valid metrics: loss: 0.81398 | metrics.Dice: -0.32483
+
+[2019-05-27 11:10:38,633] Epoch 36 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:12:39,510] Train metrics: loss: 0.78338 | metrics.Dice: -0.35226 | grad: 0.66622
+[2019-05-27 11:12:39,510] Valid metrics: loss: 0.78453 | metrics.Dice: -0.34869
+
+[2019-05-27 11:12:39,545] Epoch 37 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:14:48,361] Train metrics: loss: 0.78136 | metrics.Dice: -0.35473 | grad: 0.66407
+[2019-05-27 11:14:48,361] Valid metrics: loss: 0.77152 | metrics.Dice: -0.35287
+
+[2019-05-27 11:14:48,414] Epoch 38 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:16:55,859] Train metrics: loss: 0.77941 | metrics.Dice: -0.35444 | grad: 0.71567
+[2019-05-27 11:16:55,860] Valid metrics: loss: 0.76409 | metrics.Dice: -0.35987
+
+[2019-05-27 11:16:55,903] Epoch 39 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:18:56,714] Train metrics: loss: 0.77996 | metrics.Dice: -0.35523 | grad: 0.68816
+[2019-05-27 11:18:56,714] Valid metrics: loss: 0.75267 | metrics.Dice: -0.36815
+
+[2019-05-27 11:18:56,768] Epoch 40 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:20:58,960] Train metrics: loss: 0.77650 | metrics.Dice: -0.35879 | grad: 0.74580
+[2019-05-27 11:20:58,960] Valid metrics: loss: 0.75449 | metrics.Dice: -0.36629
+
+[2019-05-27 11:20:58,960] Epoch 41 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:23:03,783] Train metrics: loss: 0.77721 | metrics.Dice: -0.35926 | grad: 0.73635
+[2019-05-27 11:23:03,783] Valid metrics: loss: 0.75903 | metrics.Dice: -0.36426
+
+[2019-05-27 11:23:03,784] Epoch 42 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:25:11,435] Train metrics: loss: 0.76419 | metrics.Dice: -0.36877 | grad: 0.69221
+[2019-05-27 11:25:11,435] Valid metrics: loss: 0.73166 | metrics.Dice: -0.38957
+
+[2019-05-27 11:25:11,477] Epoch 43 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:27:18,247] Train metrics: loss: 0.76538 | metrics.Dice: -0.36929 | grad: 0.65922
+[2019-05-27 11:27:18,247] Valid metrics: loss: 0.74951 | metrics.Dice: -0.37545
+
+[2019-05-27 11:27:18,248] Epoch 44 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:29:19,605] Train metrics: loss: 0.77028 | metrics.Dice: -0.36438 | grad: 0.77112
+[2019-05-27 11:29:19,605] Valid metrics: loss: 0.80230 | metrics.Dice: -0.33401
+
+[2019-05-27 11:29:19,605] Epoch 45 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:31:22,070] Train metrics: loss: 0.74937 | metrics.Dice: -0.38063 | grad: 0.66311
+[2019-05-27 11:31:22,071] Valid metrics: loss: 0.74011 | metrics.Dice: -0.38270
+
+[2019-05-27 11:31:22,071] Epoch 46 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:33:25,341] Train metrics: loss: 0.75254 | metrics.Dice: -0.37930 | grad: 0.74581
+[2019-05-27 11:33:25,342] Valid metrics: loss: 0.73629 | metrics.Dice: -0.38715
+
+[2019-05-27 11:33:25,342] Epoch 47 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:35:34,072] Train metrics: loss: 0.75210 | metrics.Dice: -0.38098 | grad: 0.70859
+[2019-05-27 11:35:34,072] Valid metrics: loss: 0.73341 | metrics.Dice: -0.38898
+
+[2019-05-27 11:35:34,073] Epoch 48 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:37:38,303] Train metrics: loss: 0.73825 | metrics.Dice: -0.39119 | grad: 0.73808
+[2019-05-27 11:37:38,304] Valid metrics: loss: 0.70727 | metrics.Dice: -0.41030
+
+[2019-05-27 11:37:38,345] Epoch 49 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:39:39,947] Train metrics: loss: 0.74815 | metrics.Dice: -0.38347 | grad: 0.75415
+[2019-05-27 11:39:39,947] Valid metrics: loss: 0.74158 | metrics.Dice: -0.37977
+
+[2019-05-27 11:39:39,947] Epoch 50 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:41:40,375] Train metrics: loss: 0.74297 | metrics.Dice: -0.38697 | grad: 0.74297
+[2019-05-27 11:41:40,375] Valid metrics: loss: 0.74082 | metrics.Dice: -0.38561
+
+[2019-05-27 11:41:40,375] Epoch 51 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:43:41,216] Train metrics: loss: 0.74685 | metrics.Dice: -0.38436 | grad: 0.77300
+[2019-05-27 11:43:41,217] Valid metrics: loss: 0.74975 | metrics.Dice: -0.38259
+
+[2019-05-27 11:43:41,217] Epoch 52 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:45:47,922] Train metrics: loss: 0.74050 | metrics.Dice: -0.38974 | grad: 0.77815
+[2019-05-27 11:45:47,923] Valid metrics: loss: 0.73115 | metrics.Dice: -0.38956
+
+[2019-05-27 11:45:47,923] Epoch 53 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:47:54,721] Train metrics: loss: 0.73718 | metrics.Dice: -0.39219 | grad: 0.76332
+[2019-05-27 11:47:54,721] Valid metrics: loss: 0.71280 | metrics.Dice: -0.40699
+
+[2019-05-27 11:47:54,721] Epoch 54 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:49:56,952] Train metrics: loss: 0.74172 | metrics.Dice: -0.38953 | grad: 0.77835
+[2019-05-27 11:49:56,952] Valid metrics: loss: 0.71551 | metrics.Dice: -0.40488
+
+[2019-05-27 11:49:56,953] Epoch 55 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:51:58,128] Train metrics: loss: 0.73047 | metrics.Dice: -0.39882 | grad: 0.76232
+[2019-05-27 11:51:58,128] Valid metrics: loss: 0.73387 | metrics.Dice: -0.39116
+
+[2019-05-27 11:51:58,128] Epoch 56 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:53:59,868] Train metrics: loss: 0.72557 | metrics.Dice: -0.40274 | grad: 0.75112
+[2019-05-27 11:53:59,869] Valid metrics: loss: 0.69228 | metrics.Dice: -0.42029
+
+[2019-05-27 11:53:59,903] Epoch 57 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:56:11,253] Train metrics: loss: 0.73164 | metrics.Dice: -0.39824 | grad: 0.75002
+[2019-05-27 11:56:11,253] Valid metrics: loss: 0.72577 | metrics.Dice: -0.39756
+
+[2019-05-27 11:56:11,253] Epoch 58 | optimizer "Adam" | lr 0.0003
+[2019-05-27 11:58:12,873] Train metrics: loss: 0.72298 | metrics.Dice: -0.40449 | grad: 0.74824
+[2019-05-27 11:58:12,873] Valid metrics: loss: 0.75467 | metrics.Dice: -0.37860
+
+[2019-05-27 11:58:12,873] Epoch 59 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:00:14,826] Train metrics: loss: 0.72046 | metrics.Dice: -0.40608 | grad: 0.81782
+[2019-05-27 12:00:14,826] Valid metrics: loss: 0.74816 | metrics.Dice: -0.38274
+
+[2019-05-27 12:00:14,826] Epoch 60 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:02:17,290] Train metrics: loss: 0.72852 | metrics.Dice: -0.40177 | grad: 0.85146
+[2019-05-27 12:02:17,290] Valid metrics: loss: 0.73841 | metrics.Dice: -0.39040
+
+[2019-05-27 12:02:17,290] Epoch 61 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:04:22,730] Train metrics: loss: 0.71679 | metrics.Dice: -0.40972 | grad: 0.75208
+[2019-05-27 12:04:22,730] Valid metrics: loss: 0.71251 | metrics.Dice: -0.40772
+
+[2019-05-27 12:04:22,730] Epoch 62 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:06:32,668] Train metrics: loss: 0.71659 | metrics.Dice: -0.40987 | grad: 0.78278
+[2019-05-27 12:06:32,668] Valid metrics: loss: 0.70700 | metrics.Dice: -0.41366
+
+[2019-05-27 12:06:32,668] Epoch 63 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:08:35,959] Train metrics: loss: 0.71186 | metrics.Dice: -0.41473 | grad: 0.81335
+[2019-05-27 12:08:35,960] Valid metrics: loss: 0.70505 | metrics.Dice: -0.41521
+
+[2019-05-27 12:08:35,960] Epoch 64 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:10:35,767] Train metrics: loss: 0.71180 | metrics.Dice: -0.41536 | grad: 0.85679
+[2019-05-27 12:10:35,767] Valid metrics: loss: 0.71119 | metrics.Dice: -0.40455
+
+[2019-05-27 12:10:35,767] Epoch 65 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:12:35,845] Train metrics: loss: 0.70225 | metrics.Dice: -0.42257 | grad: 0.82211
+[2019-05-27 12:12:35,845] Valid metrics: loss: 0.72113 | metrics.Dice: -0.40121
+
+[2019-05-27 12:12:35,845] Epoch 66 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:14:42,794] Train metrics: loss: 0.69908 | metrics.Dice: -0.42474 | grad: 0.84511
+[2019-05-27 12:14:42,794] Valid metrics: loss: 0.69114 | metrics.Dice: -0.42734
+
+[2019-05-27 12:14:42,830] Epoch 67 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:16:50,270] Train metrics: loss: 0.70729 | metrics.Dice: -0.41953 | grad: 0.84592
+[2019-05-27 12:16:50,271] Valid metrics: loss: 0.72657 | metrics.Dice: -0.40251
+
+[2019-05-27 12:16:50,271] Epoch 68 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:18:52,165] Train metrics: loss: 0.69947 | metrics.Dice: -0.42543 | grad: 0.86611
+[2019-05-27 12:18:52,165] Valid metrics: loss: 0.74999 | metrics.Dice: -0.37795
+
+[2019-05-27 12:18:52,165] Epoch 69 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:20:54,178] Train metrics: loss: 0.69463 | metrics.Dice: -0.42919 | grad: 0.83380
+[2019-05-27 12:20:54,178] Valid metrics: loss: 0.69117 | metrics.Dice: -0.42737
+
+[2019-05-27 12:20:54,211] Epoch 70 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:22:58,061] Train metrics: loss: 0.70656 | metrics.Dice: -0.41946 | grad: 0.88551
+[2019-05-27 12:22:58,062] Valid metrics: loss: 0.69190 | metrics.Dice: -0.41976
+
+[2019-05-27 12:22:58,062] Epoch 71 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:25:05,122] Train metrics: loss: 0.68952 | metrics.Dice: -0.43272 | grad: 0.83750
+[2019-05-27 12:25:05,122] Valid metrics: loss: 0.70148 | metrics.Dice: -0.41823
+
+[2019-05-27 12:25:05,122] Epoch 72 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:27:08,682] Train metrics: loss: 0.69577 | metrics.Dice: -0.42823 | grad: 0.87393
+[2019-05-27 12:27:08,682] Valid metrics: loss: 0.72821 | metrics.Dice: -0.40072
+
+[2019-05-27 12:27:08,682] Epoch 73 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:29:09,919] Train metrics: loss: 0.67809 | metrics.Dice: -0.44298 | grad: 0.83730
+[2019-05-27 12:29:09,920] Valid metrics: loss: 0.70033 | metrics.Dice: -0.42156
+
+[2019-05-27 12:29:09,920] Epoch 74 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:31:12,551] Train metrics: loss: 0.68339 | metrics.Dice: -0.43916 | grad: 0.88002
+[2019-05-27 12:31:12,552] Valid metrics: loss: 0.71357 | metrics.Dice: -0.40383
+
+[2019-05-27 12:31:12,552] Epoch 75 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:33:17,319] Train metrics: loss: 0.68413 | metrics.Dice: -0.43967 | grad: 0.88040
+[2019-05-27 12:33:17,319] Valid metrics: loss: 0.72229 | metrics.Dice: -0.40224
+
+[2019-05-27 12:33:17,319] Epoch 76 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:35:27,902] Train metrics: loss: 0.67155 | metrics.Dice: -0.44775 | grad: 0.85075
+[2019-05-27 12:35:27,902] Valid metrics: loss: 0.71777 | metrics.Dice: -0.41328
+
+[2019-05-27 12:35:27,902] Epoch 77 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:37:33,832] Train metrics: loss: 0.68418 | metrics.Dice: -0.43864 | grad: 0.90406
+[2019-05-27 12:37:33,832] Valid metrics: loss: 0.75762 | metrics.Dice: -0.38554
+
+[2019-05-27 12:37:33,832] Epoch 78 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:39:34,613] Train metrics: loss: 0.67574 | metrics.Dice: -0.44535 | grad: 0.89029
+[2019-05-27 12:39:34,613] Valid metrics: loss: 0.68494 | metrics.Dice: -0.43267
+
+[2019-05-27 12:39:34,655] Epoch 79 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:41:37,482] Train metrics: loss: 0.68433 | metrics.Dice: -0.43895 | grad: 0.85902
+[2019-05-27 12:41:37,482] Valid metrics: loss: 0.69509 | metrics.Dice: -0.42298
+
+[2019-05-27 12:41:37,482] Epoch 80 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:43:38,367] Train metrics: loss: 0.66955 | metrics.Dice: -0.45018 | grad: 0.88661
+[2019-05-27 12:43:38,367] Valid metrics: loss: 0.66996 | metrics.Dice: -0.44446
+
+[2019-05-27 12:43:38,404] Epoch 81 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:45:39,959] Train metrics: loss: 0.66759 | metrics.Dice: -0.45181 | grad: 0.89509
+[2019-05-27 12:45:39,959] Valid metrics: loss: 0.72099 | metrics.Dice: -0.41022
+
+[2019-05-27 12:45:39,959] Epoch 82 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:47:40,646] Train metrics: loss: 0.67189 | metrics.Dice: -0.44904 | grad: 0.91597
+[2019-05-27 12:47:40,646] Valid metrics: loss: 0.68572 | metrics.Dice: -0.43663
+
+[2019-05-27 12:47:40,646] Epoch 83 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:49:41,556] Train metrics: loss: 0.66757 | metrics.Dice: -0.45317 | grad: 0.93324
+[2019-05-27 12:49:41,557] Valid metrics: loss: 0.71341 | metrics.Dice: -0.41336
+
+[2019-05-27 12:49:41,557] Epoch 84 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:51:43,573] Train metrics: loss: 0.67404 | metrics.Dice: -0.44704 | grad: 0.93582
+[2019-05-27 12:51:43,574] Valid metrics: loss: 0.69475 | metrics.Dice: -0.42611
+
+[2019-05-27 12:51:43,574] Epoch 85 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:53:48,490] Train metrics: loss: 0.66809 | metrics.Dice: -0.45338 | grad: 0.90968
+[2019-05-27 12:53:48,490] Valid metrics: loss: 0.70143 | metrics.Dice: -0.42472
+
+[2019-05-27 12:53:48,490] Epoch 86 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:55:49,219] Train metrics: loss: 0.66888 | metrics.Dice: -0.45201 | grad: 0.95979
+[2019-05-27 12:55:49,219] Valid metrics: loss: 0.71506 | metrics.Dice: -0.41112
+
+[2019-05-27 12:55:49,219] Epoch 87 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:57:49,494] Train metrics: loss: 0.67292 | metrics.Dice: -0.44818 | grad: 0.92606
+[2019-05-27 12:57:49,495] Valid metrics: loss: 0.69988 | metrics.Dice: -0.42920
+
+[2019-05-27 12:57:49,495] Epoch 88 | optimizer "Adam" | lr 0.0003
+[2019-05-27 12:59:50,772] Train metrics: loss: 0.65814 | metrics.Dice: -0.46018 | grad: 0.88741
+[2019-05-27 12:59:50,772] Valid metrics: loss: 0.68495 | metrics.Dice: -0.43758
+
+[2019-05-27 12:59:50,772] Epoch 89 | optimizer "Adam" | lr 0.0003
+[2019-05-27 13:01:52,336] Train metrics: loss: 0.65705 | metrics.Dice: -0.46068 | grad: 0.90074
+[2019-05-27 13:01:52,336] Valid metrics: loss: 0.67307 | metrics.Dice: -0.44891
+
+[2019-05-27 13:01:52,374] Epoch 90 | optimizer "Adam" | lr 0.0003
+[2019-05-27 13:03:54,225] Train metrics: loss: 0.65329 | metrics.Dice: -0.46502 | grad: 0.92881
+[2019-05-27 13:03:54,226] Valid metrics: loss: 0.70623 | metrics.Dice: -0.42199
+
+[2019-05-27 13:03:54,226] Epoch 91 | optimizer "Adam" | lr 0.0003
+[2019-05-27 13:05:55,049] Train metrics: loss: 0.66101 | metrics.Dice: -0.45926 | grad: 0.93894
+[2019-05-27 13:05:55,049] Valid metrics: loss: 0.68405 | metrics.Dice: -0.43955
+
+[2019-05-27 13:05:55,049] Epoch 92 | optimizer "Adam" | lr 0.0003
+[2019-05-27 13:07:54,202] Train metrics: loss: 0.65795 | metrics.Dice: -0.46072 | grad: 0.95392
+[2019-05-27 13:07:54,203] Valid metrics: loss: 0.70479 | metrics.Dice: -0.42443
+
+[2019-05-27 13:07:54,203] Epoch 93 | optimizer "Adam" | lr 0.0003
+[2019-05-27 13:09:53,990] Train metrics: loss: 0.66097 | metrics.Dice: -0.45926 | grad: 0.95626
+[2019-05-27 13:09:53,991] Valid metrics: loss: 0.66802 | metrics.Dice: -0.44824
+
+[2019-05-27 13:09:53,991] Epoch 94 | optimizer "Adam" | lr 0.0003
+[2019-05-27 13:11:55,867] Train metrics: loss: 0.65338 | metrics.Dice: -0.46501 | grad: 0.95349
+[2019-05-27 13:11:55,867] Valid metrics: loss: 0.64957 | metrics.Dice: -0.46002
+
+[2019-05-27 13:11:55,906] Epoch 95 | optimizer "Adam" | lr 0.0003
+[2019-05-27 13:13:58,522] Train metrics: loss: 0.64267 | metrics.Dice: -0.47335 | grad: 0.94684
+[2019-05-27 13:13:58,522] Valid metrics: loss: 0.66306 | metrics.Dice: -0.45715
+
+[2019-05-27 13:13:58,522] Epoch 96 | optimizer "Adam" | lr 0.0003
+[2019-05-27 13:16:00,812] Train metrics: loss: 0.65029 | metrics.Dice: -0.46842 | grad: 0.95999
+[2019-05-27 13:16:00,812] Valid metrics: loss: 0.68948 | metrics.Dice: -0.42576
+
+[2019-05-27 13:16:00,813] Epoch 97 | optimizer "Adam" | lr 0.0003
+[2019-05-27 13:18:02,324] Train metrics: loss: 0.63768 | metrics.Dice: -0.47726 | grad: 0.97194
+[2019-05-27 13:18:02,324] Valid metrics: loss: 0.66217 | metrics.Dice: -0.45647
+
+[2019-05-27 13:18:02,325] Epoch 98 | optimizer "Adam" | lr 0.0003
+[2019-05-27 13:20:04,854] Train metrics: loss: 0.63925 | metrics.Dice: -0.47683 | grad: 0.94218
+[2019-05-27 13:20:04,854] Valid metrics: loss: 0.68017 | metrics.Dice: -0.44645
+
+[2019-05-27 13:20:04,854] Epoch 99 | optimizer "Adam" | lr 0.0003
+[2019-05-27 13:22:06,234] Train metrics: loss: 0.64263 | metrics.Dice: -0.47468 | grad: 0.97376
+[2019-05-27 13:22:06,234] Valid metrics: loss: 0.73408 | metrics.Dice: -0.40728
+
+[2019-05-27 13:22:06,234] Epoch 100 | optimizer "Adam" | lr 0.0003
+[2019-05-27 13:24:10,664] Train metrics: loss: 0.65150 | metrics.Dice: -0.46654 | grad: 1.04349
+[2019-05-27 13:24:10,664] Valid metrics: loss: 0.68011 | metrics.Dice: -0.43866
+
+[2019-05-27 13:24:10,664] Epoch 101 | optimizer "Adam" | lr 0.0003
+[2019-05-27 13:26:11,951] Train metrics: loss: 0.63341 | metrics.Dice: -0.48090 | grad: 0.93337
+[2019-05-27 13:26:11,951] Valid metrics: loss: 0.66548 | metrics.Dice: -0.45214
+
+[2019-05-27 13:26:11,951] Epoch 102 | optimizer "Adam" | lr 0.0003
+[2019-05-27 13:28:11,851] Train metrics: loss: 0.63434 | metrics.Dice: -0.48037 | grad: 0.93677
+[2019-05-27 13:28:11,851] Valid metrics: loss: 0.69765 | metrics.Dice: -0.43354
+
+[2019-05-27 13:28:11,852] Epoch 103 | optimizer "Adam" | lr 0.0003
+[2019-05-27 13:30:12,111] Train metrics: loss: 0.63510 | metrics.Dice: -0.48020 | grad: 0.96489
+[2019-05-27 13:30:12,111] Valid metrics: loss: 0.68141 | metrics.Dice: -0.44001
+
+[2019-05-27 13:30:12,111] Epoch 104 | optimizer "Adam" | lr 0.0003
+[2019-05-27 13:32:13,522] Train metrics: loss: 0.63181 | metrics.Dice: -0.48385 | grad: 0.94697
+[2019-05-27 13:32:13,522] Valid metrics: loss: 0.70927 | metrics.Dice: -0.42014
+
+[2019-05-27 13:32:13,522] Epoch 105 | optimizer "Adam" | lr 0.0003
+[2019-05-27 13:34:14,148] Train metrics: loss: 0.63504 | metrics.Dice: -0.47964 | grad: 0.98440
+[2019-05-27 13:34:14,148] Valid metrics: loss: 0.66447 | metrics.Dice: -0.45711
+
+[2019-05-27 13:34:14,148] Epoch 106 | optimizer "Adam" | lr 0.0003
+[2019-05-27 14:31:15,526] Starting training with params:
+{'name': '3d_unet_with_transform_organ_26_27_new/0', 'model': 'models_zoo.segmentation.unet3d.Modified3DUNet', 'model_params': {'n_classes': 1}, 'loss': 'losses.LossBinaryDice', 'loss_params': {}, 'metrics': ['metrics.Dice'], 'steps_per_epoch': 2500, 'new_save': True, 'name_save': 'tt_2', 'save_dir': PosixPath('../weights/3d_unet_with_transform_organ_26_27_new/0')}
+
+
+[2019-05-27 14:31:16,932] Starting stage:
+{'load_best': False, 'optimizer': 'Adam', 'optimizer_params': {'lr': 0.0003}, 'scheduler': 'ReduceLROnPlateau', 'scheduler_params': {'patience': 15, 'factor': 0.5, 'min_lr': 1e-06, 'verbose': True}, 'epochs': 500, 'augmentation': 'mix_transform'}
+
+[2019-05-27 14:31:16,932] Epoch 0 | optimizer "Adam" | lr 0.0003
+[2019-05-27 14:34:18,161] Starting training with params:
+{'name': '3d_unet_with_transform_organ_26_27_new/0', 'model': 'models_zoo.segmentation.unet3d.Modified3DUNet', 'model_params': {'n_classes': 1}, 'loss': 'losses.LossBinaryDice', 'loss_params': {}, 'metrics': ['metrics.Dice'], 'steps_per_epoch': 2500, 'new_save': True, 'name_save': 'tt_2', 'save_dir': PosixPath('../weights/3d_unet_with_transform_organ_26_27_new/0')}
+
+
+[2019-05-27 14:34:19,555] Starting stage:
+{'load_best': False, 'optimizer': 'Adam', 'optimizer_params': {'lr': 0.0003}, 'scheduler': 'ReduceLROnPlateau', 'scheduler_params': {'patience': 15, 'factor': 0.5, 'min_lr': 1e-06, 'verbose': True}, 'epochs': 500, 'augmentation': 'mix_transform'}
+
+[2019-05-27 14:34:19,556] Epoch 0 | optimizer "Adam" | lr 0.0003
+[2019-05-27 14:36:37,531] Train metrics: loss: 1.24456 | metrics.Dice: -0.23314 | grad: 0.92892
+[2019-05-27 14:36:37,531] Valid metrics: loss: 1.09916 | metrics.Dice: -0.25589
+
+[2019-05-27 14:36:37,566] Epoch 1 | optimizer "Adam" | lr 0.0003
+[2019-05-27 14:38:38,659] Train metrics: loss: 1.09210 | metrics.Dice: -0.27497 | grad: 0.49131
+[2019-05-27 14:38:38,659] Valid metrics: loss: 1.04798 | metrics.Dice: -0.28936
+
+[2019-05-27 14:38:38,696] Epoch 2 | optimizer "Adam" | lr 0.0003
+[2019-05-27 14:40:39,925] Train metrics: loss: 1.05969 | metrics.Dice: -0.28880 | grad: 0.35934
+[2019-05-27 14:40:39,925] Valid metrics: loss: 1.01877 | metrics.Dice: -0.28281
+
+[2019-05-27 14:40:39,925] Epoch 3 | optimizer "Adam" | lr 0.0003
+[2019-05-27 14:42:48,385] Train metrics: loss: 1.04150 | metrics.Dice: -0.29814 | grad: 0.35368
+[2019-05-27 14:42:48,385] Valid metrics: loss: 0.97722 | metrics.Dice: -0.31626
+
+[2019-05-27 14:42:48,431] Epoch 4 | optimizer "Adam" | lr 0.0003
+[2019-05-27 14:44:57,862] Train metrics: loss: 0.95344 | metrics.Dice: -0.36053 | grad: 0.71051
+[2019-05-27 14:44:57,862] Valid metrics: loss: 0.86143 | metrics.Dice: -0.40548
+
+[2019-05-27 14:44:57,901] Epoch 5 | optimizer "Adam" | lr 0.0003
+[2019-05-27 14:46:58,559] Train metrics: loss: 0.88189 | metrics.Dice: -0.41524 | grad: 0.68922
+[2019-05-27 14:46:58,559] Valid metrics: loss: 0.83866 | metrics.Dice: -0.41762
+
+[2019-05-27 14:46:58,592] Epoch 6 | optimizer "Adam" | lr 0.0003
+[2019-05-27 14:48:59,467] Train metrics: loss: 0.85742 | metrics.Dice: -0.43565 | grad: 0.62504
+[2019-05-27 14:48:59,467] Valid metrics: loss: 0.82542 | metrics.Dice: -0.43362
+
+[2019-05-27 14:48:59,503] Epoch 7 | optimizer "Adam" | lr 0.0003
+[2019-05-27 14:51:03,181] Train metrics: loss: 0.85374 | metrics.Dice: -0.44078 | grad: 0.62893
+[2019-05-27 14:51:03,181] Valid metrics: loss: 0.81964 | metrics.Dice: -0.43820
+
+[2019-05-27 14:51:03,231] Epoch 8 | optimizer "Adam" | lr 0.0003
+[2019-05-27 14:53:09,918] Train metrics: loss: 0.84340 | metrics.Dice: -0.44680 | grad: 0.57989
+[2019-05-27 14:53:09,918] Valid metrics: loss: 0.80677 | metrics.Dice: -0.44562
+
+[2019-05-27 14:53:09,956] Epoch 9 | optimizer "Adam" | lr 0.0003
+[2019-05-27 14:55:12,925] Train metrics: loss: 0.84955 | metrics.Dice: -0.44553 | grad: 0.59452
+[2019-05-27 14:55:12,925] Valid metrics: loss: 0.80680 | metrics.Dice: -0.44432
+
+[2019-05-27 14:55:12,926] Epoch 10 | optimizer "Adam" | lr 0.0003
+[2019-05-27 14:57:14,245] Train metrics: loss: 0.83310 | metrics.Dice: -0.45615 | grad: 0.54303
+[2019-05-27 14:57:14,246] Valid metrics: loss: 0.80295 | metrics.Dice: -0.45188
+
+[2019-05-27 14:57:14,278] Epoch 11 | optimizer "Adam" | lr 0.0003
+[2019-05-27 14:59:17,986] Train metrics: loss: 0.83130 | metrics.Dice: -0.45661 | grad: 0.54960
+[2019-05-27 14:59:17,986] Valid metrics: loss: 0.80198 | metrics.Dice: -0.45322
+
+[2019-05-27 14:59:18,021] Epoch 12 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:01:28,192] Train metrics: loss: 0.83001 | metrics.Dice: -0.45846 | grad: 0.52879
+[2019-05-27 15:01:28,192] Valid metrics: loss: 0.79202 | metrics.Dice: -0.45437
+
+[2019-05-27 15:01:28,231] Epoch 13 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:03:28,777] Train metrics: loss: 0.82448 | metrics.Dice: -0.46375 | grad: 0.50539
+[2019-05-27 15:03:28,777] Valid metrics: loss: 0.79330 | metrics.Dice: -0.45541
+
+[2019-05-27 15:03:28,817] Epoch 14 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:05:29,449] Train metrics: loss: 0.82333 | metrics.Dice: -0.46427 | grad: 0.45440
+[2019-05-27 15:05:29,449] Valid metrics: loss: 0.78162 | metrics.Dice: -0.46121
+
+[2019-05-27 15:05:29,497] Epoch 15 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:07:29,991] Train metrics: loss: 0.81841 | metrics.Dice: -0.46694 | grad: 0.47986
+[2019-05-27 15:07:29,991] Valid metrics: loss: 0.78485 | metrics.Dice: -0.46142
+
+[2019-05-27 15:07:30,029] Epoch 16 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:09:34,522] Train metrics: loss: 0.82039 | metrics.Dice: -0.46718 | grad: 0.46825
+[2019-05-27 15:09:34,522] Valid metrics: loss: 0.80140 | metrics.Dice: -0.45675
+
+[2019-05-27 15:09:34,522] Epoch 17 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:11:43,618] Train metrics: loss: 0.82101 | metrics.Dice: -0.46674 | grad: 0.49895
+[2019-05-27 15:11:43,618] Valid metrics: loss: 0.78386 | metrics.Dice: -0.45726
+
+[2019-05-27 15:11:43,618] Epoch 18 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:13:46,021] Train metrics: loss: 0.81918 | metrics.Dice: -0.46510 | grad: 0.47378
+[2019-05-27 15:13:46,021] Valid metrics: loss: 0.78587 | metrics.Dice: -0.46133
+
+[2019-05-27 15:13:46,021] Epoch 19 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:15:49,879] Train metrics: loss: 0.81142 | metrics.Dice: -0.47150 | grad: 0.48341
+[2019-05-27 15:15:49,879] Valid metrics: loss: 0.79117 | metrics.Dice: -0.46081
+
+[2019-05-27 15:15:49,879] Epoch 20 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:17:50,612] Train metrics: loss: 0.81189 | metrics.Dice: -0.47244 | grad: 0.47296
+[2019-05-27 15:17:50,612] Valid metrics: loss: 0.78362 | metrics.Dice: -0.45986
+
+[2019-05-27 15:17:50,612] Epoch 21 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:20:01,436] Train metrics: loss: 0.81008 | metrics.Dice: -0.47293 | grad: 0.45752
+[2019-05-27 15:20:01,436] Valid metrics: loss: 0.78797 | metrics.Dice: -0.46512
+
+[2019-05-27 15:20:01,473] Epoch 22 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:22:04,810] Train metrics: loss: 0.80935 | metrics.Dice: -0.47352 | grad: 0.48971
+[2019-05-27 15:22:04,810] Valid metrics: loss: 0.77852 | metrics.Dice: -0.46547
+
+[2019-05-27 15:22:04,849] Epoch 23 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:24:07,192] Train metrics: loss: 0.81013 | metrics.Dice: -0.47324 | grad: 0.46060
+[2019-05-27 15:24:07,192] Valid metrics: loss: 0.78111 | metrics.Dice: -0.46582
+
+[2019-05-27 15:24:07,232] Epoch 24 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:26:08,366] Train metrics: loss: 0.81242 | metrics.Dice: -0.47296 | grad: 0.47798
+[2019-05-27 15:26:08,366] Valid metrics: loss: 0.80762 | metrics.Dice: -0.44895
+
+[2019-05-27 15:26:08,366] Epoch 25 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:28:18,757] Train metrics: loss: 0.80813 | metrics.Dice: -0.47395 | grad: 0.49121
+[2019-05-27 15:28:18,757] Valid metrics: loss: 0.77880 | metrics.Dice: -0.46994
+
+[2019-05-27 15:28:18,803] Epoch 26 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:30:27,703] Train metrics: loss: 0.80473 | metrics.Dice: -0.47771 | grad: 0.46093
+[2019-05-27 15:30:27,704] Valid metrics: loss: 0.78139 | metrics.Dice: -0.46657
+
+[2019-05-27 15:30:27,704] Epoch 27 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:32:31,806] Train metrics: loss: 0.80593 | metrics.Dice: -0.47589 | grad: 0.46585
+[2019-05-27 15:32:31,806] Valid metrics: loss: 0.76219 | metrics.Dice: -0.47468
+
+[2019-05-27 15:32:31,854] Epoch 28 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:34:37,364] Train metrics: loss: 0.79505 | metrics.Dice: -0.48345 | grad: 0.50896
+[2019-05-27 15:34:37,364] Valid metrics: loss: 0.76358 | metrics.Dice: -0.47522
+
+[2019-05-27 15:34:37,399] Epoch 29 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:36:45,042] Train metrics: loss: 0.79556 | metrics.Dice: -0.48365 | grad: 0.50061
+[2019-05-27 15:36:45,042] Valid metrics: loss: 0.75642 | metrics.Dice: -0.48460
+
+[2019-05-27 15:36:45,082] Epoch 30 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:38:47,102] Train metrics: loss: 0.79520 | metrics.Dice: -0.48415 | grad: 0.51778
+[2019-05-27 15:38:47,102] Valid metrics: loss: 0.77395 | metrics.Dice: -0.46912
+
+[2019-05-27 15:38:47,103] Epoch 31 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:40:48,341] Train metrics: loss: 0.78918 | metrics.Dice: -0.48713 | grad: 0.50896
+[2019-05-27 15:40:48,341] Valid metrics: loss: 0.76950 | metrics.Dice: -0.47555
+
+[2019-05-27 15:40:48,341] Epoch 32 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:42:51,051] Train metrics: loss: 0.79045 | metrics.Dice: -0.48794 | grad: 0.52298
+[2019-05-27 15:42:51,052] Valid metrics: loss: 0.77238 | metrics.Dice: -0.47402
+
+[2019-05-27 15:42:51,052] Epoch 33 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:44:54,497] Train metrics: loss: 0.77567 | metrics.Dice: -0.49579 | grad: 0.52917
+[2019-05-27 15:44:54,497] Valid metrics: loss: 0.77089 | metrics.Dice: -0.48054
+
+[2019-05-27 15:44:54,497] Epoch 34 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:47:03,405] Train metrics: loss: 0.78009 | metrics.Dice: -0.49393 | grad: 0.53669
+[2019-05-27 15:47:03,406] Valid metrics: loss: 0.76157 | metrics.Dice: -0.47841
+
+[2019-05-27 15:47:03,406] Epoch 35 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:49:05,439] Train metrics: loss: 0.76964 | metrics.Dice: -0.50052 | grad: 0.54984
+[2019-05-27 15:49:05,439] Valid metrics: loss: 0.74653 | metrics.Dice: -0.48741
+
+[2019-05-27 15:49:05,477] Epoch 36 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:51:06,837] Train metrics: loss: 0.76391 | metrics.Dice: -0.50305 | grad: 0.56844
+[2019-05-27 15:51:06,837] Valid metrics: loss: 0.75214 | metrics.Dice: -0.49159
+
+[2019-05-27 15:51:06,884] Epoch 37 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:53:10,529] Train metrics: loss: 0.77434 | metrics.Dice: -0.49874 | grad: 0.56692
+[2019-05-27 15:53:10,529] Valid metrics: loss: 0.74565 | metrics.Dice: -0.49258
+
+[2019-05-27 15:53:10,564] Epoch 38 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:55:19,539] Train metrics: loss: 0.76324 | metrics.Dice: -0.50588 | grad: 0.56070
+[2019-05-27 15:55:19,540] Valid metrics: loss: 0.74558 | metrics.Dice: -0.49403
+
+[2019-05-27 15:55:19,583] Epoch 39 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:57:23,349] Train metrics: loss: 0.75907 | metrics.Dice: -0.50660 | grad: 0.61620
+[2019-05-27 15:57:23,349] Valid metrics: loss: 0.73169 | metrics.Dice: -0.50488
+
+[2019-05-27 15:57:23,395] Epoch 40 | optimizer "Adam" | lr 0.0003
+[2019-05-27 15:59:26,515] Train metrics: loss: 0.76530 | metrics.Dice: -0.50515 | grad: 0.57839
+[2019-05-27 15:59:26,516] Valid metrics: loss: 0.74251 | metrics.Dice: -0.49798
+
+[2019-05-27 15:59:26,516] Epoch 41 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:01:27,638] Train metrics: loss: 0.75903 | metrics.Dice: -0.50731 | grad: 0.56236
+[2019-05-27 16:01:27,638] Valid metrics: loss: 0.73543 | metrics.Dice: -0.50540
+
+[2019-05-27 16:01:27,679] Epoch 42 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:03:36,479] Train metrics: loss: 0.75182 | metrics.Dice: -0.51281 | grad: 0.57128
+[2019-05-27 16:03:36,479] Valid metrics: loss: 0.71167 | metrics.Dice: -0.50835
+
+[2019-05-27 16:03:36,516] Epoch 43 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:05:41,873] Train metrics: loss: 0.74908 | metrics.Dice: -0.51443 | grad: 0.61086
+[2019-05-27 16:05:41,873] Valid metrics: loss: 0.73243 | metrics.Dice: -0.49722
+
+[2019-05-27 16:05:41,873] Epoch 44 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:07:42,200] Train metrics: loss: 0.75030 | metrics.Dice: -0.51212 | grad: 0.57480
+[2019-05-27 16:07:42,201] Valid metrics: loss: 0.71572 | metrics.Dice: -0.50971
+
+[2019-05-27 16:07:42,238] Epoch 45 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:09:42,542] Train metrics: loss: 0.74744 | metrics.Dice: -0.51518 | grad: 0.83307
+[2019-05-27 16:09:42,542] Valid metrics: loss: 0.74910 | metrics.Dice: -0.49529
+
+[2019-05-27 16:09:42,542] Epoch 46 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:11:50,678] Train metrics: loss: 0.74714 | metrics.Dice: -0.51534 | grad: 0.57685
+[2019-05-27 16:11:50,678] Valid metrics: loss: 0.71824 | metrics.Dice: -0.51128
+
+[2019-05-27 16:11:50,714] Epoch 47 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:13:57,540] Train metrics: loss: 0.73886 | metrics.Dice: -0.52141 | grad: 0.57390
+[2019-05-27 16:13:57,540] Valid metrics: loss: 0.71700 | metrics.Dice: -0.51234
+
+[2019-05-27 16:13:57,580] Epoch 48 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:16:01,159] Train metrics: loss: 0.73799 | metrics.Dice: -0.52321 | grad: 0.57555
+[2019-05-27 16:16:01,160] Valid metrics: loss: 0.71670 | metrics.Dice: -0.50627
+
+[2019-05-27 16:16:01,160] Epoch 49 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:18:01,594] Train metrics: loss: 0.74054 | metrics.Dice: -0.51952 | grad: 0.61013
+[2019-05-27 16:18:01,594] Valid metrics: loss: 0.74464 | metrics.Dice: -0.49521
+
+[2019-05-27 16:18:01,594] Epoch 50 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:20:05,290] Train metrics: loss: 0.73357 | metrics.Dice: -0.52439 | grad: 0.62585
+[2019-05-27 16:20:05,290] Valid metrics: loss: 0.73456 | metrics.Dice: -0.50038
+
+[2019-05-27 16:20:05,290] Epoch 51 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:22:12,873] Train metrics: loss: 0.72494 | metrics.Dice: -0.53011 | grad: 0.61716
+[2019-05-27 16:22:12,873] Valid metrics: loss: 0.70590 | metrics.Dice: -0.51636
+
+[2019-05-27 16:22:12,913] Epoch 52 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:24:13,266] Train metrics: loss: 0.71754 | metrics.Dice: -0.53525 | grad: 0.60386
+[2019-05-27 16:24:13,267] Valid metrics: loss: 0.69099 | metrics.Dice: -0.52578
+
+[2019-05-27 16:24:13,305] Epoch 53 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:26:16,297] Train metrics: loss: 0.72715 | metrics.Dice: -0.52927 | grad: 0.63901
+[2019-05-27 16:26:16,298] Valid metrics: loss: 0.69517 | metrics.Dice: -0.53208
+
+[2019-05-27 16:26:16,336] Epoch 54 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:28:19,838] Train metrics: loss: 0.72447 | metrics.Dice: -0.53253 | grad: 0.67981
+[2019-05-27 16:28:19,838] Valid metrics: loss: 0.69564 | metrics.Dice: -0.52421
+
+[2019-05-27 16:28:19,838] Epoch 55 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:30:28,895] Train metrics: loss: 0.72086 | metrics.Dice: -0.53294 | grad: 0.61376
+[2019-05-27 16:30:28,895] Valid metrics: loss: 0.68540 | metrics.Dice: -0.53237
+
+[2019-05-27 16:30:28,942] Epoch 56 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:32:35,669] Train metrics: loss: 0.71399 | metrics.Dice: -0.53840 | grad: 0.65300
+[2019-05-27 16:32:35,669] Valid metrics: loss: 0.69293 | metrics.Dice: -0.53172
+
+[2019-05-27 16:32:35,669] Epoch 57 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:34:40,615] Train metrics: loss: 0.72061 | metrics.Dice: -0.53473 | grad: 0.65375
+[2019-05-27 16:34:40,616] Valid metrics: loss: 0.69405 | metrics.Dice: -0.52670
+
+[2019-05-27 16:34:40,616] Epoch 58 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:36:42,095] Train metrics: loss: 0.71471 | metrics.Dice: -0.53726 | grad: 0.74643
+[2019-05-27 16:36:42,095] Valid metrics: loss: 0.68977 | metrics.Dice: -0.52888
+
+[2019-05-27 16:36:42,095] Epoch 59 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:38:47,101] Train metrics: loss: 0.71346 | metrics.Dice: -0.53830 | grad: 0.68018
+[2019-05-27 16:38:47,101] Valid metrics: loss: 0.69193 | metrics.Dice: -0.53268
+
+[2019-05-27 16:38:47,136] Epoch 60 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:40:55,319] Train metrics: loss: 0.71406 | metrics.Dice: -0.53845 | grad: 0.65888
+[2019-05-27 16:40:55,319] Valid metrics: loss: 0.68813 | metrics.Dice: -0.53289
+
+[2019-05-27 16:40:55,357] Epoch 61 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:42:57,461] Train metrics: loss: 0.70950 | metrics.Dice: -0.54093 | grad: 0.68762
+[2019-05-27 16:42:57,462] Valid metrics: loss: 0.69787 | metrics.Dice: -0.53121
+
+[2019-05-27 16:42:57,462] Epoch 62 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:44:59,393] Train metrics: loss: 0.70312 | metrics.Dice: -0.54528 | grad: 0.71037
+[2019-05-27 16:44:59,393] Valid metrics: loss: 0.68783 | metrics.Dice: -0.52933
+
+[2019-05-27 16:44:59,394] Epoch 63 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:47:07,680] Train metrics: loss: 0.70369 | metrics.Dice: -0.54422 | grad: 0.69223
+[2019-05-27 16:47:07,680] Valid metrics: loss: 0.70109 | metrics.Dice: -0.53278
+
+[2019-05-27 16:47:07,680] Epoch 64 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:49:16,528] Train metrics: loss: 0.70569 | metrics.Dice: -0.54255 | grad: 0.71332
+[2019-05-27 16:49:16,529] Valid metrics: loss: 0.68530 | metrics.Dice: -0.54113
+
+[2019-05-27 16:49:16,568] Epoch 65 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:51:19,905] Train metrics: loss: 0.69522 | metrics.Dice: -0.55146 | grad: 0.71326
+[2019-05-27 16:51:19,905] Valid metrics: loss: 0.69286 | metrics.Dice: -0.53294
+
+[2019-05-27 16:51:19,905] Epoch 66 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:53:22,426] Train metrics: loss: 0.69561 | metrics.Dice: -0.55049 | grad: 1.03239
+[2019-05-27 16:53:22,427] Valid metrics: loss: 0.68241 | metrics.Dice: -0.52948
+
+[2019-05-27 16:53:22,427] Epoch 67 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:55:24,788] Train metrics: loss: 0.69363 | metrics.Dice: -0.55133 | grad: 0.69622
+[2019-05-27 16:55:24,789] Valid metrics: loss: 0.68671 | metrics.Dice: -0.53714
+
+[2019-05-27 16:55:24,789] Epoch 68 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:57:31,400] Train metrics: loss: 0.69558 | metrics.Dice: -0.55067 | grad: 0.67448
+[2019-05-27 16:57:31,401] Valid metrics: loss: 0.69152 | metrics.Dice: -0.53087
+
+[2019-05-27 16:57:31,401] Epoch 69 | optimizer "Adam" | lr 0.0003
+[2019-05-27 16:59:37,247] Train metrics: loss: 0.69217 | metrics.Dice: -0.55212 | grad: 0.71670
+[2019-05-27 16:59:37,247] Valid metrics: loss: 0.68043 | metrics.Dice: -0.54083
+
+[2019-05-27 16:59:37,247] Epoch 70 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:01:39,312] Train metrics: loss: 0.68861 | metrics.Dice: -0.55444 | grad: 0.69982
+[2019-05-27 17:01:39,312] Valid metrics: loss: 0.68556 | metrics.Dice: -0.53216
+
+[2019-05-27 17:01:39,312] Epoch 71 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:03:42,107] Train metrics: loss: 0.69303 | metrics.Dice: -0.55407 | grad: 0.70667
+[2019-05-27 17:03:42,108] Valid metrics: loss: 0.68529 | metrics.Dice: -0.53830
+
+[2019-05-27 17:03:42,108] Epoch 72 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:05:47,574] Train metrics: loss: 0.68830 | metrics.Dice: -0.55496 | grad: 0.73277
+[2019-05-27 17:05:47,575] Valid metrics: loss: 0.67784 | metrics.Dice: -0.53822
+
+[2019-05-27 17:05:47,575] Epoch 73 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:07:55,553] Train metrics: loss: 0.68552 | metrics.Dice: -0.55694 | grad: 0.72282
+[2019-05-27 17:07:55,553] Valid metrics: loss: 0.68414 | metrics.Dice: -0.53683
+
+[2019-05-27 17:07:55,553] Epoch 74 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:09:56,615] Train metrics: loss: 0.68173 | metrics.Dice: -0.55847 | grad: 0.71297
+[2019-05-27 17:09:56,615] Valid metrics: loss: 0.67943 | metrics.Dice: -0.54132
+
+[2019-05-27 17:09:56,653] Epoch 75 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:11:57,654] Train metrics: loss: 0.67809 | metrics.Dice: -0.56222 | grad: 0.74808
+[2019-05-27 17:11:57,654] Valid metrics: loss: 0.66430 | metrics.Dice: -0.54598
+
+[2019-05-27 17:11:57,697] Epoch 76 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:13:59,592] Train metrics: loss: 0.67041 | metrics.Dice: -0.56743 | grad: 0.70137
+[2019-05-27 17:13:59,592] Valid metrics: loss: 0.66367 | metrics.Dice: -0.55022
+
+[2019-05-27 17:13:59,633] Epoch 77 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:16:07,466] Train metrics: loss: 0.67364 | metrics.Dice: -0.56371 | grad: 0.72866
+[2019-05-27 17:16:07,466] Valid metrics: loss: 0.66808 | metrics.Dice: -0.54230
+
+[2019-05-27 17:16:07,466] Epoch 78 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:18:11,288] Train metrics: loss: 0.66708 | metrics.Dice: -0.57040 | grad: 0.74348
+[2019-05-27 17:18:11,288] Valid metrics: loss: 0.66776 | metrics.Dice: -0.55022
+
+[2019-05-27 17:18:11,326] Epoch 79 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:20:13,934] Train metrics: loss: 0.66354 | metrics.Dice: -0.57076 | grad: 0.74871
+[2019-05-27 17:20:13,934] Valid metrics: loss: 0.66373 | metrics.Dice: -0.55013
+
+[2019-05-27 17:20:13,934] Epoch 80 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:22:14,512] Train metrics: loss: 0.66011 | metrics.Dice: -0.57363 | grad: 0.76282
+[2019-05-27 17:22:14,513] Valid metrics: loss: 0.66310 | metrics.Dice: -0.55445
+
+[2019-05-27 17:22:14,553] Epoch 81 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:24:28,206] Train metrics: loss: 0.66131 | metrics.Dice: -0.57338 | grad: 0.75132
+[2019-05-27 17:24:28,207] Valid metrics: loss: 0.68327 | metrics.Dice: -0.54138
+
+[2019-05-27 17:24:28,207] Epoch 82 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:26:33,026] Train metrics: loss: 0.66458 | metrics.Dice: -0.57073 | grad: 0.75832
+[2019-05-27 17:26:33,027] Valid metrics: loss: 0.66510 | metrics.Dice: -0.55782
+
+[2019-05-27 17:26:33,059] Epoch 83 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:28:35,243] Train metrics: loss: 0.65035 | metrics.Dice: -0.58012 | grad: 0.80554
+[2019-05-27 17:28:35,243] Valid metrics: loss: 0.65091 | metrics.Dice: -0.56055
+
+[2019-05-27 17:28:35,282] Epoch 84 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:30:38,128] Train metrics: loss: 0.65441 | metrics.Dice: -0.57809 | grad: 0.88674
+[2019-05-27 17:30:38,129] Valid metrics: loss: 0.65848 | metrics.Dice: -0.55689
+
+[2019-05-27 17:30:38,129] Epoch 85 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:32:45,498] Train metrics: loss: 0.65825 | metrics.Dice: -0.57609 | grad: 0.80221
+[2019-05-27 17:32:45,498] Valid metrics: loss: 0.67118 | metrics.Dice: -0.54534
+
+[2019-05-27 17:32:45,498] Epoch 86 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:34:53,752] Train metrics: loss: 0.65039 | metrics.Dice: -0.58018 | grad: 0.78079
+[2019-05-27 17:34:53,752] Valid metrics: loss: 0.65528 | metrics.Dice: -0.55525
+
+[2019-05-27 17:34:53,752] Epoch 87 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:36:56,194] Train metrics: loss: 0.65874 | metrics.Dice: -0.57493 | grad: 0.81236
+[2019-05-27 17:36:56,194] Valid metrics: loss: 0.66850 | metrics.Dice: -0.55221
+
+[2019-05-27 17:36:56,194] Epoch 88 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:38:58,600] Train metrics: loss: 0.65352 | metrics.Dice: -0.57921 | grad: 0.84999
+[2019-05-27 17:38:58,600] Valid metrics: loss: 0.64417 | metrics.Dice: -0.56118
+
+[2019-05-27 17:38:58,638] Epoch 89 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:41:02,777] Train metrics: loss: 0.64246 | metrics.Dice: -0.58456 | grad: 0.82908
+[2019-05-27 17:41:02,777] Valid metrics: loss: 0.65907 | metrics.Dice: -0.55520
+
+[2019-05-27 17:41:02,777] Epoch 90 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:43:11,328] Train metrics: loss: 0.64354 | metrics.Dice: -0.58451 | grad: 0.83007
+[2019-05-27 17:43:11,328] Valid metrics: loss: 0.67372 | metrics.Dice: -0.54723
+
+[2019-05-27 17:43:11,328] Epoch 91 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:45:12,974] Train metrics: loss: 0.64285 | metrics.Dice: -0.58490 | grad: 0.84532
+[2019-05-27 17:45:12,974] Valid metrics: loss: 0.64442 | metrics.Dice: -0.56673
+
+[2019-05-27 17:45:13,011] Epoch 92 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:47:17,468] Train metrics: loss: 0.64417 | metrics.Dice: -0.58526 | grad: 0.83786
+[2019-05-27 17:47:17,469] Valid metrics: loss: 0.65306 | metrics.Dice: -0.56319
+
+[2019-05-27 17:47:17,469] Epoch 93 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:49:19,701] Train metrics: loss: 0.63671 | metrics.Dice: -0.58911 | grad: 0.82149
+[2019-05-27 17:49:19,701] Valid metrics: loss: 0.62487 | metrics.Dice: -0.57791
+
+[2019-05-27 17:49:19,739] Epoch 94 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:51:35,854] Train metrics: loss: 0.62368 | metrics.Dice: -0.59780 | grad: 0.81346
+[2019-05-27 17:51:35,855] Valid metrics: loss: 0.65030 | metrics.Dice: -0.56870
+
+[2019-05-27 17:51:35,855] Epoch 95 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:53:37,992] Train metrics: loss: 0.63253 | metrics.Dice: -0.59247 | grad: 0.85977
+[2019-05-27 17:53:37,992] Valid metrics: loss: 0.65860 | metrics.Dice: -0.56268
+
+[2019-05-27 17:53:37,992] Epoch 96 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:55:41,658] Train metrics: loss: 0.63363 | metrics.Dice: -0.59175 | grad: 0.83369
+[2019-05-27 17:55:41,659] Valid metrics: loss: 0.64632 | metrics.Dice: -0.56397
+
+[2019-05-27 17:55:41,659] Epoch 97 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:57:42,761] Train metrics: loss: 0.63019 | metrics.Dice: -0.59390 | grad: 0.90719
+[2019-05-27 17:57:42,761] Valid metrics: loss: 0.62717 | metrics.Dice: -0.57365
+
+[2019-05-27 17:57:42,761] Epoch 98 | optimizer "Adam" | lr 0.0003
+[2019-05-27 17:59:52,283] Train metrics: loss: 0.63695 | metrics.Dice: -0.59102 | grad: 0.88450
+[2019-05-27 17:59:52,283] Valid metrics: loss: 0.64006 | metrics.Dice: -0.56960
+
+[2019-05-27 17:59:52,283] Epoch 99 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:01:57,478] Train metrics: loss: 0.62474 | metrics.Dice: -0.59750 | grad: 0.87065
+[2019-05-27 18:01:57,478] Valid metrics: loss: 0.64502 | metrics.Dice: -0.56919
+
+[2019-05-27 18:01:57,478] Epoch 100 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:03:58,102] Train metrics: loss: 0.62035 | metrics.Dice: -0.59961 | grad: 0.88162
+[2019-05-27 18:03:58,102] Valid metrics: loss: 0.64173 | metrics.Dice: -0.57016
+
+[2019-05-27 18:03:58,102] Epoch 101 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:05:59,469] Train metrics: loss: 0.62164 | metrics.Dice: -0.59881 | grad: 0.91395
+[2019-05-27 18:05:59,469] Valid metrics: loss: 0.67843 | metrics.Dice: -0.54554
+
+[2019-05-27 18:05:59,469] Epoch 102 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:08:04,394] Train metrics: loss: 0.61912 | metrics.Dice: -0.60116 | grad: 0.91589
+[2019-05-27 18:08:04,394] Valid metrics: loss: 0.64719 | metrics.Dice: -0.56760
+
+[2019-05-27 18:08:04,394] Epoch 103 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:10:11,952] Train metrics: loss: 0.62358 | metrics.Dice: -0.59869 | grad: 0.89439
+[2019-05-27 18:10:11,952] Valid metrics: loss: 0.64920 | metrics.Dice: -0.57146
+
+[2019-05-27 18:10:11,952] Epoch 104 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:12:13,448] Train metrics: loss: 0.61334 | metrics.Dice: -0.60442 | grad: 0.90139
+[2019-05-27 18:12:13,448] Valid metrics: loss: 0.62531 | metrics.Dice: -0.57989
+
+[2019-05-27 18:12:13,486] Epoch 105 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:14:14,511] Train metrics: loss: 0.61230 | metrics.Dice: -0.60588 | grad: 0.88155
+[2019-05-27 18:14:14,511] Valid metrics: loss: 0.64267 | metrics.Dice: -0.56760
+
+[2019-05-27 18:14:14,511] Epoch 106 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:16:14,575] Train metrics: loss: 0.61280 | metrics.Dice: -0.60605 | grad: 0.89200
+[2019-05-27 18:16:14,575] Valid metrics: loss: 0.62403 | metrics.Dice: -0.57686
+
+[2019-05-27 18:16:14,576] Epoch 107 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:18:23,398] Train metrics: loss: 0.59942 | metrics.Dice: -0.61415 | grad: 0.88492
+[2019-05-27 18:18:23,398] Valid metrics: loss: 0.63016 | metrics.Dice: -0.57264
+
+[2019-05-27 18:18:23,398] Epoch 108 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:20:30,139] Train metrics: loss: 0.60945 | metrics.Dice: -0.60751 | grad: 0.95278
+[2019-05-27 18:20:30,139] Valid metrics: loss: 0.63436 | metrics.Dice: -0.57712
+
+[2019-05-27 18:20:30,139] Epoch 109 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:22:31,299] Train metrics: loss: 0.60717 | metrics.Dice: -0.61042 | grad: 0.92635
+[2019-05-27 18:22:31,300] Valid metrics: loss: 0.62264 | metrics.Dice: -0.57897
+
+[2019-05-27 18:22:31,300] Epoch 110 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:24:37,700] Train metrics: loss: 0.61432 | metrics.Dice: -0.60324 | grad: 0.93176
+[2019-05-27 18:24:37,700] Valid metrics: loss: 0.65089 | metrics.Dice: -0.57226
+
+[2019-05-27 18:24:37,700] Epoch 111 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:26:45,491] Train metrics: loss: 0.60395 | metrics.Dice: -0.61186 | grad: 0.90597
+[2019-05-27 18:26:45,491] Valid metrics: loss: 0.64383 | metrics.Dice: -0.56985
+
+[2019-05-27 18:26:45,491] Epoch 112 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:28:58,651] Train metrics: loss: 0.59606 | metrics.Dice: -0.61727 | grad: 0.90862
+[2019-05-27 18:28:58,652] Valid metrics: loss: 0.63735 | metrics.Dice: -0.57199
+
+[2019-05-27 18:28:58,652] Epoch 113 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:31:02,530] Train metrics: loss: 0.60406 | metrics.Dice: -0.61172 | grad: 0.95887
+[2019-05-27 18:31:02,530] Valid metrics: loss: 0.62578 | metrics.Dice: -0.56882
+
+[2019-05-27 18:31:02,530] Epoch 114 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:33:06,541] Train metrics: loss: 0.59979 | metrics.Dice: -0.61352 | grad: 0.90428
+[2019-05-27 18:33:06,541] Valid metrics: loss: 0.62789 | metrics.Dice: -0.57851
+
+[2019-05-27 18:33:06,541] Epoch 115 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:35:10,635] Train metrics: loss: 0.59711 | metrics.Dice: -0.61623 | grad: 0.89238
+[2019-05-27 18:35:10,636] Valid metrics: loss: 0.62796 | metrics.Dice: -0.58270
+
+[2019-05-27 18:35:10,674] Epoch 116 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:37:17,649] Train metrics: loss: 0.59024 | metrics.Dice: -0.61977 | grad: 0.96499
+[2019-05-27 18:37:17,649] Valid metrics: loss: 0.61858 | metrics.Dice: -0.58902
+
+[2019-05-27 18:37:17,702] Epoch 117 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:39:42,470] Train metrics: loss: 0.58682 | metrics.Dice: -0.62277 | grad: 0.94405
+[2019-05-27 18:39:42,470] Valid metrics: loss: 0.61970 | metrics.Dice: -0.58650
+
+[2019-05-27 18:39:42,470] Epoch 118 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:41:46,186] Train metrics: loss: 0.58273 | metrics.Dice: -0.62398 | grad: 0.93269
+[2019-05-27 18:41:46,187] Valid metrics: loss: 0.62050 | metrics.Dice: -0.58646
+
+[2019-05-27 18:41:46,187] Epoch 119 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:43:46,895] Train metrics: loss: 0.58464 | metrics.Dice: -0.62564 | grad: 0.92084
+[2019-05-27 18:43:46,896] Valid metrics: loss: 0.61680 | metrics.Dice: -0.58149
+
+[2019-05-27 18:43:46,896] Epoch 120 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:45:48,371] Train metrics: loss: 0.58612 | metrics.Dice: -0.62303 | grad: 0.99806
+[2019-05-27 18:45:48,371] Valid metrics: loss: 0.61872 | metrics.Dice: -0.58724
+
+[2019-05-27 18:45:48,371] Epoch 121 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:47:54,974] Train metrics: loss: 0.58837 | metrics.Dice: -0.62256 | grad: 0.98394
+[2019-05-27 18:47:54,975] Valid metrics: loss: 0.65144 | metrics.Dice: -0.57586
+
+[2019-05-27 18:47:54,975] Epoch 122 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:50:10,531] Train metrics: loss: 0.57705 | metrics.Dice: -0.62746 | grad: 0.93313
+[2019-05-27 18:50:10,531] Valid metrics: loss: 0.62825 | metrics.Dice: -0.58441
+
+[2019-05-27 18:50:10,532] Epoch 123 | optimizer "Adam" | lr 0.0003
+[2019-05-27 18:52:14,508] Train metrics: loss: 0.57686 | metrics.Dice: -0.62896 | grad: 0.95257
+[2019-05-27 18:52:14,509] Valid metrics: loss: 0.61293 | metrics.Dice: -0.59604
+
+[2019-05-27 18:52:14,548] Epoch 124 | optimizer "Adam" | lr 0.0003
+[2019-05-27 19:57:11,590] Starting training with params:
+{'name': '3d_unet_with_transform_organ_26_27_new/0', 'model': 'models_zoo.segmentation.unet3d.Modified3DUNet', 'model_params': {'n_classes': 1}, 'loss': 'losses.LossBinaryDice', 'loss_params': {}, 'metrics': ['metrics.Dice'], 'steps_per_epoch': 2500, 'new_save': True, 'weights': '../weights/3d_unet_with_transform_organ_26_27_new/0/tt_2_0.59604.pt', 'name_save': 'tt_3', 'save_dir': PosixPath('../weights/3d_unet_with_transform_organ_26_27_new/0')}
+
+
+[2019-05-27 20:02:39,713] Starting training with params:
+{'name': '3d_unet_with_transform_organ_26_27_new/0', 'model': 'models_zoo.segmentation.unet3d.Modified3DUNet', 'model_params': {'n_classes': 1}, 'loss': 'losses.LossBinaryDice', 'loss_params': {}, 'metrics': ['metrics.Dice'], 'steps_per_epoch': 2500, 'new_save': True, 'weights': '../weights/3d_unet_with_transform_organ_26_27_new/0/tt_2_0.59604.pt', 'name_save': 'tt_3', 'save_dir': PosixPath('../weights/3d_unet_with_transform_organ_26_27_new/0')}
+
+
+[2019-05-27 20:15:34,734] Starting training with params:
+{'name': '3d_unet_with_transform_organ_26_27_new/0', 'model': 'models_zoo.segmentation.unet3d.Modified3DUNet', 'model_params': {'n_classes': 1}, 'loss': 'losses.LossBinaryDice', 'loss_params': {}, 'metrics': ['metrics.Dice'], 'steps_per_epoch': 2500, 'new_save': True, 'weights': '../weights/3d_unet_with_transform_organ_26_27_new/0/tt_2_0.59604.pt', 'name_save': 'tt_3', 'save_dir': PosixPath('../weights/3d_unet_with_transform_organ_26_27_new/0')}
+
+
+[2019-05-27 20:19:15,219] Starting training with params:
+{'name': '3d_unet_with_transform_organ_26_27_new/0', 'model': 'models_zoo.segmentation.unet3d.Modified3DUNet', 'model_params': {'n_classes': 1}, 'loss': 'losses.LossBinaryDice', 'loss_params': {}, 'metrics': ['metrics.Dice'], 'steps_per_epoch': 2500, 'new_save': True, 'name_save': 'tt_3', 'save_dir': PosixPath('../weights/3d_unet_with_transform_organ_26_27_new/0')}
+
+
+[2019-05-27 20:26:33,780] Starting training with params:
+{'name': '3d_unet_with_transform_organ_26_27_new/0', 'model': 'models_zoo.segmentation.unet3d.Modified3DUNet', 'model_params': {'n_classes': 1}, 'loss': 'losses.LossBinaryDice', 'loss_params': {}, 'metrics': ['metrics.Dice'], 'steps_per_epoch': 2500, 'new_save': True, 'weights': '../weights/3d_unet_with_transform_organ_26_27_new/0/tt_2_0.59604.pt', 'name_save': 'tt_3', 'save_dir': PosixPath('../weights/3d_unet_with_transform_organ_26_27_new/0')}
+
+
+[2019-05-27 20:26:35,281] Starting stage:
+{'load_best': False, 'optimizer': 'Adam', 'optimizer_params': {'lr': 0.0003}, 'scheduler': 'ReduceLROnPlateau', 'scheduler_params': {'patience': 15, 'factor': 0.5, 'min_lr': 1e-06, 'verbose': True}, 'epochs': 500, 'augmentation': 'mix_transform'}
+
+[2019-05-27 20:26:35,281] Epoch 0 | optimizer "Adam" | lr 0.0003
+[2019-05-27 20:27:44,725] Starting training with params:
+{'name': '3d_unet_with_transform_organ_26_27_new/0', 'model': 'models_zoo.segmentation.unet3d.Modified3DUNet', 'model_params': {'n_classes': 1}, 'loss': 'losses.LossBinaryDice', 'loss_params': {}, 'metrics': ['metrics.Dice'], 'steps_per_epoch': 2500, 'new_save': True, 'weights': '../weights/3d_unet_with_transform_organ_26_27_new/0/tt_2_0.59604.pt', 'name_save': 'tt_3', 'save_dir': PosixPath('../weights/3d_unet_with_transform_organ_26_27_new/0')}
+
+
+[2019-05-27 20:27:46,363] Starting stage:
+{'load_best': False, 'optimizer': 'Adam', 'optimizer_params': {'lr': 0.0003}, 'scheduler': 'ReduceLROnPlateau', 'scheduler_params': {'patience': 15, 'factor': 0.5, 'min_lr': 1e-06, 'verbose': True}, 'epochs': 500, 'augmentation': 'mix_transform'}
+
+[2019-05-27 20:27:46,363] Epoch 0 | optimizer "Adam" | lr 0.0003
+[2019-05-27 20:37:06,587] Starting training with params:
+{'name': '3d_unet_with_transform_organ_26_27_new/0', 'model': 'models_zoo.segmentation.unet3d.Modified3DUNet', 'model_params': {'n_classes': 1}, 'loss': 'losses.LossBinaryDice', 'loss_params': {}, 'metrics': ['metrics.Dice'], 'steps_per_epoch': 2500, 'new_save': True, 'weights': '../weights/3d_unet_with_transform_organ_26_27_new/0/tt_2_0.59604.pt', 'name_save': 'tt_3', 'save_dir': PosixPath('../weights/3d_unet_with_transform_organ_26_27_new/0')}
+
+
+[2019-05-27 20:37:08,025] Starting stage:
+{'load_best': False, 'optimizer': 'Adam', 'optimizer_params': {'lr': 0.0003}, 'scheduler': 'ReduceLROnPlateau', 'scheduler_params': {'patience': 15, 'factor': 0.5, 'min_lr': 1e-06, 'verbose': True}, 'epochs': 500, 'augmentation': 'mix_transform'}
+
+[2019-05-27 20:37:08,025] Epoch 0 | optimizer "Adam" | lr 0.0003
+[2019-05-27 20:39:30,098] Train metrics: loss: 0.56497 | metrics.Dice: -0.59005 | grad: 0.96325
+[2019-05-27 20:39:30,098] Valid metrics: loss: 0.56224 | metrics.Dice: -0.58533
+
+[2019-05-27 20:39:30,134] Epoch 1 | optimizer "Adam" | lr 0.0003
+[2019-05-27 20:41:33,852] Train metrics: loss: 0.53644 | metrics.Dice: -0.61083 | grad: 0.94408
+[2019-05-27 20:41:33,852] Valid metrics: loss: 0.57091 | metrics.Dice: -0.57564
+
+[2019-05-27 20:41:33,852] Epoch 2 | optimizer "Adam" | lr 0.0003
+[2019-05-27 20:43:36,833] Train metrics: loss: 0.52765 | metrics.Dice: -0.61830 | grad: 0.90247
+[2019-05-27 20:43:36,833] Valid metrics: loss: 0.55343 | metrics.Dice: -0.59178
+
+[2019-05-27 20:43:36,872] Epoch 3 | optimizer "Adam" | lr 0.0003
+[2019-05-27 20:45:39,219] Train metrics: loss: 0.51823 | metrics.Dice: -0.62611 | grad: 0.93449
+[2019-05-27 20:45:39,219] Valid metrics: loss: 0.55705 | metrics.Dice: -0.58832
+
+[2019-05-27 20:45:39,219] Epoch 4 | optimizer "Adam" | lr 0.0003
+[2019-05-27 20:47:41,226] Train metrics: loss: 0.51124 | metrics.Dice: -0.63062 | grad: 0.95294
+[2019-05-27 20:47:41,227] Valid metrics: loss: 0.54315 | metrics.Dice: -0.59932
+
+[2019-05-27 20:47:41,267] Epoch 5 | optimizer "Adam" | lr 0.0003
+[2019-05-27 20:49:43,990] Train metrics: loss: 0.51020 | metrics.Dice: -0.63153 | grad: 0.98380
+[2019-05-27 20:49:43,990] Valid metrics: loss: 0.54566 | metrics.Dice: -0.60147
+
+[2019-05-27 20:49:44,032] Epoch 6 | optimizer "Adam" | lr 0.0003
+[2019-05-27 20:51:45,687] Train metrics: loss: 0.50294 | metrics.Dice: -0.63530 | grad: 0.88781
+[2019-05-27 20:51:45,687] Valid metrics: loss: 0.53445 | metrics.Dice: -0.60687
+
+[2019-05-27 20:51:45,733] Epoch 7 | optimizer "Adam" | lr 0.0003
+[2019-05-27 20:53:47,324] Train metrics: loss: 0.50209 | metrics.Dice: -0.63725 | grad: 0.88331
+[2019-05-27 20:53:47,324] Valid metrics: loss: 0.54608 | metrics.Dice: -0.60180
+
+[2019-05-27 20:53:47,324] Epoch 8 | optimizer "Adam" | lr 0.0003
+[2019-05-27 20:55:53,270] Train metrics: loss: 0.49717 | metrics.Dice: -0.64133 | grad: 0.93087
+[2019-05-27 20:55:53,271] Valid metrics: loss: 0.55609 | metrics.Dice: -0.59276
+
+[2019-05-27 20:55:53,271] Epoch 9 | optimizer "Adam" | lr 0.0003
+[2019-05-27 20:57:54,989] Train metrics: loss: 0.49080 | metrics.Dice: -0.64567 | grad: 0.92546
+[2019-05-27 20:57:54,989] Valid metrics: loss: 0.54718 | metrics.Dice: -0.59784
+
+[2019-05-27 20:57:54,989] Epoch 10 | optimizer "Adam" | lr 0.0003
+[2019-05-27 20:59:55,363] Train metrics: loss: 0.48831 | metrics.Dice: -0.64754 | grad: 0.93316
+[2019-05-27 20:59:55,363] Valid metrics: loss: 0.53472 | metrics.Dice: -0.61005
+
+[2019-05-27 20:59:55,401] Epoch 11 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:01:54,878] Train metrics: loss: 0.49232 | metrics.Dice: -0.64540 | grad: 0.98736
+[2019-05-27 21:01:54,879] Valid metrics: loss: 0.53840 | metrics.Dice: -0.60810
+
+[2019-05-27 21:01:54,879] Epoch 12 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:03:56,639] Train metrics: loss: 0.48226 | metrics.Dice: -0.65127 | grad: 0.94432
+[2019-05-27 21:03:56,639] Valid metrics: loss: 0.55830 | metrics.Dice: -0.59437
+
+[2019-05-27 21:03:56,639] Epoch 13 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:05:57,986] Train metrics: loss: 0.48569 | metrics.Dice: -0.65031 | grad: 0.98102
+[2019-05-27 21:05:57,987] Valid metrics: loss: 0.56096 | metrics.Dice: -0.59214
+
+[2019-05-27 21:05:57,987] Epoch 14 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:07:58,907] Train metrics: loss: 0.48082 | metrics.Dice: -0.65273 | grad: 0.93097
+[2019-05-27 21:07:58,907] Valid metrics: loss: 0.54706 | metrics.Dice: -0.59896
+
+[2019-05-27 21:07:58,907] Epoch 15 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:09:59,746] Train metrics: loss: 0.47021 | metrics.Dice: -0.66104 | grad: 0.89792
+[2019-05-27 21:09:59,746] Valid metrics: loss: 0.54497 | metrics.Dice: -0.60809
+
+[2019-05-27 21:09:59,747] Epoch 16 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:11:59,382] Train metrics: loss: 0.47160 | metrics.Dice: -0.66035 | grad: 0.92321
+[2019-05-27 21:11:59,382] Valid metrics: loss: 0.54307 | metrics.Dice: -0.60304
+
+[2019-05-27 21:11:59,382] Epoch 17 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:14:00,656] Train metrics: loss: 0.46974 | metrics.Dice: -0.66203 | grad: 0.93820
+[2019-05-27 21:14:00,657] Valid metrics: loss: 0.54676 | metrics.Dice: -0.60478
+
+[2019-05-27 21:14:00,657] Epoch 18 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:16:02,388] Train metrics: loss: 0.46109 | metrics.Dice: -0.66752 | grad: 0.92869
+[2019-05-27 21:16:02,388] Valid metrics: loss: 0.53956 | metrics.Dice: -0.60378
+
+[2019-05-27 21:16:02,388] Epoch 19 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:18:03,556] Train metrics: loss: 0.46366 | metrics.Dice: -0.66633 | grad: 0.96098
+[2019-05-27 21:18:03,556] Valid metrics: loss: 0.55907 | metrics.Dice: -0.59224
+
+[2019-05-27 21:18:03,556] Epoch 20 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:20:05,194] Train metrics: loss: 0.46011 | metrics.Dice: -0.66804 | grad: 0.96994
+[2019-05-27 21:20:05,195] Valid metrics: loss: 0.52165 | metrics.Dice: -0.61898
+
+[2019-05-27 21:20:05,232] Epoch 21 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:22:06,876] Train metrics: loss: 0.45643 | metrics.Dice: -0.67160 | grad: 0.97321
+[2019-05-27 21:22:06,876] Valid metrics: loss: 0.55189 | metrics.Dice: -0.60183
+
+[2019-05-27 21:22:06,876] Epoch 22 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:26:51,347] Starting training with params:
+{'name': '3d_unet_with_transform_organ_26_27_new/0', 'model': 'models_zoo.segmentation.unet3d.Modified3DUNet', 'model_params': {'n_classes': 1}, 'loss': 'losses.LossBinaryDice', 'loss_params': {}, 'metrics': ['metrics.Dice'], 'steps_per_epoch': 2500, 'new_save': True, 'weights': '../weights/3d_unet_with_transform_organ_26_27_new/0/tt_3_0.61898.pt', 'name_save': 'tt_4', 'save_dir': PosixPath('../weights/3d_unet_with_transform_organ_26_27_new/0')}
+
+
+[2019-05-27 21:26:52,882] Starting stage:
+{'load_best': False, 'optimizer': 'Adam', 'optimizer_params': {'lr': 0.0003}, 'scheduler': 'ReduceLROnPlateau', 'scheduler_params': {'patience': 15, 'factor': 0.5, 'min_lr': 1e-06, 'verbose': True}, 'epochs': 500, 'augmentation': 'mix_transform'}
+
+[2019-05-27 21:26:52,882] Epoch 0 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:29:11,597] Train metrics: loss: 0.48837 | metrics.Dice: -0.64964 | grad: 1.14539
+[2019-05-27 21:29:11,597] Valid metrics: loss: 0.54144 | metrics.Dice: -0.60151
+
+[2019-05-27 21:29:11,633] Epoch 1 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:31:12,004] Train metrics: loss: 0.47681 | metrics.Dice: -0.65644 | grad: 0.95783
+[2019-05-27 21:31:12,005] Valid metrics: loss: 0.53608 | metrics.Dice: -0.60875
+
+[2019-05-27 21:31:12,043] Epoch 2 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:33:12,313] Train metrics: loss: 0.47430 | metrics.Dice: -0.65824 | grad: 0.94333
+[2019-05-27 21:33:12,313] Valid metrics: loss: 0.53690 | metrics.Dice: -0.60903
+
+[2019-05-27 21:33:12,351] Epoch 3 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:35:11,412] Train metrics: loss: 0.46986 | metrics.Dice: -0.66067 | grad: 0.94598
+[2019-05-27 21:35:11,412] Valid metrics: loss: 0.53315 | metrics.Dice: -0.61257
+
+[2019-05-27 21:35:11,449] Epoch 4 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:37:12,197] Train metrics: loss: 0.46744 | metrics.Dice: -0.66384 | grad: 0.94135
+[2019-05-27 21:37:12,197] Valid metrics: loss: 0.53144 | metrics.Dice: -0.61581
+
+[2019-05-27 21:37:12,235] Epoch 5 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:39:13,470] Train metrics: loss: 0.46837 | metrics.Dice: -0.66337 | grad: 0.97029
+[2019-05-27 21:39:13,470] Valid metrics: loss: 0.54817 | metrics.Dice: -0.59855
+
+[2019-05-27 21:39:13,470] Epoch 6 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:41:14,101] Train metrics: loss: 0.47046 | metrics.Dice: -0.66075 | grad: 0.96903
+[2019-05-27 21:41:14,101] Valid metrics: loss: 0.54820 | metrics.Dice: -0.59644
+
+[2019-05-27 21:41:14,101] Epoch 7 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:43:19,244] Train metrics: loss: 0.46640 | metrics.Dice: -0.66403 | grad: 0.98756
+[2019-05-27 21:43:19,244] Valid metrics: loss: 0.52471 | metrics.Dice: -0.61110
+
+[2019-05-27 21:43:19,244] Epoch 8 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:45:26,172] Train metrics: loss: 0.45766 | metrics.Dice: -0.67063 | grad: 0.95463
+[2019-05-27 21:45:26,172] Valid metrics: loss: 0.52774 | metrics.Dice: -0.61425
+
+[2019-05-27 21:45:26,172] Epoch 9 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:47:28,646] Train metrics: loss: 0.45660 | metrics.Dice: -0.67116 | grad: 0.96977
+[2019-05-27 21:47:28,646] Valid metrics: loss: 0.54746 | metrics.Dice: -0.60265
+
+[2019-05-27 21:47:28,646] Epoch 10 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:49:32,103] Train metrics: loss: 0.45370 | metrics.Dice: -0.67335 | grad: 0.99472
+[2019-05-27 21:49:32,103] Valid metrics: loss: 0.53244 | metrics.Dice: -0.61524
+
+[2019-05-27 21:49:32,103] Epoch 11 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:51:38,446] Train metrics: loss: 0.45368 | metrics.Dice: -0.67316 | grad: 0.93908
+[2019-05-27 21:51:38,446] Valid metrics: loss: 0.52079 | metrics.Dice: -0.61679
+
+[2019-05-27 21:51:38,496] Epoch 12 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:53:47,789] Train metrics: loss: 0.45079 | metrics.Dice: -0.67547 | grad: 1.03667
+[2019-05-27 21:53:47,789] Valid metrics: loss: 0.51419 | metrics.Dice: -0.62223
+
+[2019-05-27 21:53:47,827] Epoch 13 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:55:50,528] Train metrics: loss: 0.45526 | metrics.Dice: -0.67282 | grad: 1.00469
+[2019-05-27 21:55:50,528] Valid metrics: loss: 0.52765 | metrics.Dice: -0.61611
+
+[2019-05-27 21:55:50,528] Epoch 14 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:57:51,238] Train metrics: loss: 0.45130 | metrics.Dice: -0.67455 | grad: 1.00382
+[2019-05-27 21:57:51,238] Valid metrics: loss: 0.51487 | metrics.Dice: -0.62737
+
+[2019-05-27 21:57:51,281] Epoch 15 | optimizer "Adam" | lr 0.0003
+[2019-05-27 21:59:54,498] Train metrics: loss: 0.45079 | metrics.Dice: -0.67605 | grad: 0.96684
+[2019-05-27 21:59:54,499] Valid metrics: loss: 0.53323 | metrics.Dice: -0.61526
+
+[2019-05-27 21:59:54,499] Epoch 16 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:02:02,516] Train metrics: loss: 0.44680 | metrics.Dice: -0.67839 | grad: 0.97862
+[2019-05-27 22:02:02,516] Valid metrics: loss: 0.54600 | metrics.Dice: -0.60580
+
+[2019-05-27 22:02:02,516] Epoch 17 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:04:04,598] Train metrics: loss: 0.44795 | metrics.Dice: -0.67793 | grad: 0.97708
+[2019-05-27 22:04:04,599] Valid metrics: loss: 0.54008 | metrics.Dice: -0.60661
+
+[2019-05-27 22:04:04,599] Epoch 18 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:06:05,281] Train metrics: loss: 0.45023 | metrics.Dice: -0.67646 | grad: 1.01259
+[2019-05-27 22:06:05,281] Valid metrics: loss: 0.52953 | metrics.Dice: -0.61371
+
+[2019-05-27 22:06:05,281] Epoch 19 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:08:07,461] Train metrics: loss: 0.44302 | metrics.Dice: -0.68097 | grad: 1.00948
+[2019-05-27 22:08:07,461] Valid metrics: loss: 0.53546 | metrics.Dice: -0.61553
+
+[2019-05-27 22:08:07,462] Epoch 20 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:10:16,381] Train metrics: loss: 0.44321 | metrics.Dice: -0.68125 | grad: 0.99444
+[2019-05-27 22:10:16,382] Valid metrics: loss: 0.53620 | metrics.Dice: -0.60767
+
+[2019-05-27 22:10:16,382] Epoch 21 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:12:21,366] Train metrics: loss: 0.43723 | metrics.Dice: -0.68492 | grad: 0.97169
+[2019-05-27 22:12:21,366] Valid metrics: loss: 0.53825 | metrics.Dice: -0.61268
+
+[2019-05-27 22:12:21,366] Epoch 22 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:14:22,258] Train metrics: loss: 0.43685 | metrics.Dice: -0.68518 | grad: 0.97240
+[2019-05-27 22:14:22,258] Valid metrics: loss: 0.53465 | metrics.Dice: -0.61435
+
+[2019-05-27 22:14:22,258] Epoch 23 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:16:22,583] Train metrics: loss: 0.43599 | metrics.Dice: -0.68664 | grad: 0.96035
+[2019-05-27 22:16:22,583] Valid metrics: loss: 0.52972 | metrics.Dice: -0.61931
+
+[2019-05-27 22:16:22,583] Epoch 24 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:18:24,877] Train metrics: loss: 0.43494 | metrics.Dice: -0.68709 | grad: 0.95473
+[2019-05-27 22:18:24,877] Valid metrics: loss: 0.53962 | metrics.Dice: -0.61456
+
+[2019-05-27 22:18:24,877] Epoch 25 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:20:32,263] Train metrics: loss: 0.43683 | metrics.Dice: -0.68620 | grad: 1.04575
+[2019-05-27 22:20:32,263] Valid metrics: loss: 0.52095 | metrics.Dice: -0.61791
+
+[2019-05-27 22:20:32,263] Epoch 26 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:22:35,394] Train metrics: loss: 0.43075 | metrics.Dice: -0.69046 | grad: 0.95788
+[2019-05-27 22:22:35,394] Valid metrics: loss: 0.51621 | metrics.Dice: -0.62492
+
+[2019-05-27 22:22:35,394] Epoch 27 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:24:37,065] Train metrics: loss: 0.42804 | metrics.Dice: -0.69159 | grad: 0.97316
+[2019-05-27 22:24:37,065] Valid metrics: loss: 0.51743 | metrics.Dice: -0.62505
+
+[2019-05-27 22:24:37,065] Epoch 28 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:26:39,325] Train metrics: loss: 0.42837 | metrics.Dice: -0.69185 | grad: 0.98765
+[2019-05-27 22:26:39,325] Valid metrics: loss: 0.53784 | metrics.Dice: -0.61043
+
+[2019-05-27 22:26:39,325] Epoch 29 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:28:46,876] Train metrics: loss: 0.42572 | metrics.Dice: -0.69351 | grad: 0.95027
+[2019-05-27 22:28:46,877] Valid metrics: loss: 0.52788 | metrics.Dice: -0.61900
+
+[2019-05-27 22:28:46,877] Epoch 30 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:30:52,919] Train metrics: loss: 0.42157 | metrics.Dice: -0.69726 | grad: 0.94665
+[2019-05-27 22:30:52,919] Valid metrics: loss: 0.50491 | metrics.Dice: -0.63052
+
+[2019-05-27 22:30:52,959] Epoch 31 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:32:55,768] Train metrics: loss: 0.43115 | metrics.Dice: -0.69027 | grad: 1.06248
+[2019-05-27 22:32:55,768] Valid metrics: loss: 0.51712 | metrics.Dice: -0.62386
+
+[2019-05-27 22:32:55,768] Epoch 32 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:34:55,602] Train metrics: loss: 0.42462 | metrics.Dice: -0.69453 | grad: 0.96596
+[2019-05-27 22:34:55,602] Valid metrics: loss: 0.51324 | metrics.Dice: -0.62978
+
+[2019-05-27 22:34:55,602] Epoch 33 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:37:00,684] Train metrics: loss: 0.41564 | metrics.Dice: -0.70174 | grad: 0.96486
+[2019-05-27 22:37:00,684] Valid metrics: loss: 0.51446 | metrics.Dice: -0.62419
+
+[2019-05-27 22:37:00,684] Epoch 34 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:39:08,503] Train metrics: loss: 0.42617 | metrics.Dice: -0.69420 | grad: 1.00175
+[2019-05-27 22:39:08,503] Valid metrics: loss: 0.52538 | metrics.Dice: -0.61461
+
+[2019-05-27 22:39:08,503] Epoch 35 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:41:09,236] Train metrics: loss: 0.42054 | metrics.Dice: -0.69759 | grad: 0.99041
+[2019-05-27 22:41:09,236] Valid metrics: loss: 0.52240 | metrics.Dice: -0.62514
+
+[2019-05-27 22:41:09,236] Epoch 36 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:43:13,759] Train metrics: loss: 0.42093 | metrics.Dice: -0.69638 | grad: 1.00185
+[2019-05-27 22:43:13,759] Valid metrics: loss: 0.51522 | metrics.Dice: -0.63183
+
+[2019-05-27 22:43:13,798] Epoch 37 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:45:16,558] Train metrics: loss: 0.41613 | metrics.Dice: -0.70111 | grad: 0.95645
+[2019-05-27 22:45:16,559] Valid metrics: loss: 0.52830 | metrics.Dice: -0.61572
+
+[2019-05-27 22:45:16,559] Epoch 38 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:47:25,526] Train metrics: loss: 0.41691 | metrics.Dice: -0.69975 | grad: 0.99444
+[2019-05-27 22:47:25,526] Valid metrics: loss: 0.52771 | metrics.Dice: -0.62173
+
+[2019-05-27 22:47:25,527] Epoch 39 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:49:27,210] Train metrics: loss: 0.41066 | metrics.Dice: -0.70512 | grad: 0.97037
+[2019-05-27 22:49:27,210] Valid metrics: loss: 0.52153 | metrics.Dice: -0.62645
+
+[2019-05-27 22:49:27,210] Epoch 40 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:51:28,109] Train metrics: loss: 0.40978 | metrics.Dice: -0.70548 | grad: 0.99958
+[2019-05-27 22:51:28,109] Valid metrics: loss: 0.52550 | metrics.Dice: -0.61878
+
+[2019-05-27 22:51:28,110] Epoch 41 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:53:28,834] Train metrics: loss: 0.41132 | metrics.Dice: -0.70446 | grad: 0.98152
+[2019-05-27 22:53:28,834] Valid metrics: loss: 0.52484 | metrics.Dice: -0.62787
+
+[2019-05-27 22:53:28,834] Epoch 42 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:55:39,420] Train metrics: loss: 0.41268 | metrics.Dice: -0.70335 | grad: 1.03246
+[2019-05-27 22:55:39,420] Valid metrics: loss: 0.52854 | metrics.Dice: -0.62433
+
+[2019-05-27 22:55:39,420] Epoch 43 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:57:41,905] Train metrics: loss: 0.41028 | metrics.Dice: -0.70547 | grad: 1.01539
+[2019-05-27 22:57:41,905] Valid metrics: loss: 0.55442 | metrics.Dice: -0.60252
+
+[2019-05-27 22:57:41,905] Epoch 44 | optimizer "Adam" | lr 0.0003
+[2019-05-27 22:59:44,679] Train metrics: loss: 0.40976 | metrics.Dice: -0.70572 | grad: 1.05760
+[2019-05-27 22:59:44,679] Valid metrics: loss: 0.54383 | metrics.Dice: -0.61444
+
+[2019-05-27 22:59:44,679] Epoch 45 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:01:44,005] Train metrics: loss: 0.40703 | metrics.Dice: -0.70720 | grad: 1.00683
+[2019-05-27 23:01:44,005] Valid metrics: loss: 0.52860 | metrics.Dice: -0.61866
+
+[2019-05-27 23:01:44,005] Epoch 46 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:03:51,315] Train metrics: loss: 0.40077 | metrics.Dice: -0.71149 | grad: 0.98925
+[2019-05-27 23:03:51,315] Valid metrics: loss: 0.51056 | metrics.Dice: -0.63644
+
+[2019-05-27 23:03:51,382] Epoch 47 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:05:59,524] Train metrics: loss: 0.40291 | metrics.Dice: -0.71053 | grad: 0.98281
+[2019-05-27 23:05:59,524] Valid metrics: loss: 0.52764 | metrics.Dice: -0.62091
+
+[2019-05-27 23:05:59,524] Epoch 48 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:07:59,614] Train metrics: loss: 0.40264 | metrics.Dice: -0.71050 | grad: 1.01565
+[2019-05-27 23:07:59,614] Valid metrics: loss: 0.54221 | metrics.Dice: -0.61296
+
+[2019-05-27 23:07:59,614] Epoch 49 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:10:00,856] Train metrics: loss: 0.40028 | metrics.Dice: -0.71214 | grad: 0.98702
+[2019-05-27 23:10:00,857] Valid metrics: loss: 0.53311 | metrics.Dice: -0.61901
+
+[2019-05-27 23:10:00,857] Epoch 50 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:12:02,415] Train metrics: loss: 0.40160 | metrics.Dice: -0.71180 | grad: 0.99458
+[2019-05-27 23:12:02,416] Valid metrics: loss: 0.52768 | metrics.Dice: -0.62291
+
+[2019-05-27 23:12:02,416] Epoch 51 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:14:09,835] Train metrics: loss: 0.39953 | metrics.Dice: -0.71340 | grad: 1.01743
+[2019-05-27 23:14:09,836] Valid metrics: loss: 0.55620 | metrics.Dice: -0.60928
+
+[2019-05-27 23:14:09,836] Epoch 52 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:16:12,654] Train metrics: loss: 0.39890 | metrics.Dice: -0.71395 | grad: 0.97800
+[2019-05-27 23:16:12,655] Valid metrics: loss: 0.53523 | metrics.Dice: -0.61973
+
+[2019-05-27 23:16:12,655] Epoch 53 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:18:13,270] Train metrics: loss: 0.39448 | metrics.Dice: -0.71645 | grad: 1.01145
+[2019-05-27 23:18:13,270] Valid metrics: loss: 0.50587 | metrics.Dice: -0.63662
+
+[2019-05-27 23:18:13,309] Epoch 54 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:20:15,376] Train metrics: loss: 0.39473 | metrics.Dice: -0.71636 | grad: 1.00508
+[2019-05-27 23:20:15,377] Valid metrics: loss: 0.53594 | metrics.Dice: -0.61399
+
+[2019-05-27 23:20:15,377] Epoch 55 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:22:26,328] Train metrics: loss: 0.40031 | metrics.Dice: -0.71310 | grad: 1.03827
+[2019-05-27 23:22:26,329] Valid metrics: loss: 0.53463 | metrics.Dice: -0.61624
+
+[2019-05-27 23:22:26,329] Epoch 56 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:24:29,693] Train metrics: loss: 0.39979 | metrics.Dice: -0.71229 | grad: 1.03178
+[2019-05-27 23:24:29,693] Valid metrics: loss: 0.52741 | metrics.Dice: -0.62672
+
+[2019-05-27 23:24:29,693] Epoch 57 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:26:29,062] Train metrics: loss: 0.39198 | metrics.Dice: -0.71841 | grad: 0.98154
+[2019-05-27 23:26:29,062] Valid metrics: loss: 0.52122 | metrics.Dice: -0.62806
+
+[2019-05-27 23:26:29,062] Epoch 58 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:28:30,906] Train metrics: loss: 0.39233 | metrics.Dice: -0.71792 | grad: 0.97758
+[2019-05-27 23:28:30,906] Valid metrics: loss: 0.53607 | metrics.Dice: -0.61508
+
+[2019-05-27 23:28:30,906] Epoch 59 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:30:35,987] Train metrics: loss: 0.39265 | metrics.Dice: -0.71820 | grad: 1.00250
+[2019-05-27 23:30:35,987] Valid metrics: loss: 0.52773 | metrics.Dice: -0.62361
+
+[2019-05-27 23:30:35,987] Epoch 60 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:32:44,267] Train metrics: loss: 0.38546 | metrics.Dice: -0.72288 | grad: 0.99974
+[2019-05-27 23:32:44,267] Valid metrics: loss: 0.53832 | metrics.Dice: -0.61959
+
+[2019-05-27 23:32:44,267] Epoch 61 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:34:44,858] Train metrics: loss: 0.38588 | metrics.Dice: -0.72226 | grad: 0.96642
+[2019-05-27 23:34:44,858] Valid metrics: loss: 0.54830 | metrics.Dice: -0.61265
+
+[2019-05-27 23:34:44,858] Epoch 62 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:36:47,678] Train metrics: loss: 0.38251 | metrics.Dice: -0.72488 | grad: 0.99171
+[2019-05-27 23:36:47,679] Valid metrics: loss: 0.51307 | metrics.Dice: -0.63285
+
+[2019-05-27 23:36:47,679] Epoch 63 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:38:56,700] Train metrics: loss: 0.38478 | metrics.Dice: -0.72364 | grad: 0.99680
+[2019-05-27 23:38:56,701] Valid metrics: loss: 0.52536 | metrics.Dice: -0.62707
+
+[2019-05-27 23:38:56,701] Epoch 64 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:40:58,061] Train metrics: loss: 0.38248 | metrics.Dice: -0.72484 | grad: 1.00236
+[2019-05-27 23:40:58,061] Valid metrics: loss: 0.53374 | metrics.Dice: -0.61792
+
+[2019-05-27 23:40:58,061] Epoch 65 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:42:58,905] Train metrics: loss: 0.39452 | metrics.Dice: -0.71809 | grad: 1.11525
+[2019-05-27 23:42:58,906] Valid metrics: loss: 0.53292 | metrics.Dice: -0.62171
+
+[2019-05-27 23:42:58,906] Epoch 66 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:45:00,185] Train metrics: loss: 0.38887 | metrics.Dice: -0.72062 | grad: 0.99229
+[2019-05-27 23:45:00,185] Valid metrics: loss: 0.52241 | metrics.Dice: -0.62825
+
+[2019-05-27 23:45:00,185] Epoch 67 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:47:07,579] Train metrics: loss: 0.38231 | metrics.Dice: -0.72531 | grad: 0.93835
+[2019-05-27 23:47:07,579] Valid metrics: loss: 0.52927 | metrics.Dice: -0.62655
+
+[2019-05-27 23:47:07,579] Epoch 68 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:49:08,659] Train metrics: loss: 0.37834 | metrics.Dice: -0.72794 | grad: 0.95969
+[2019-05-27 23:49:08,660] Valid metrics: loss: 0.51035 | metrics.Dice: -0.63731
+
+[2019-05-27 23:49:08,697] Epoch 69 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:51:11,244] Train metrics: loss: 0.38039 | metrics.Dice: -0.72712 | grad: 0.99832
+[2019-05-27 23:51:11,244] Valid metrics: loss: 0.51286 | metrics.Dice: -0.63628
+
+[2019-05-27 23:51:11,245] Epoch 70 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:53:12,262] Train metrics: loss: 0.37548 | metrics.Dice: -0.73028 | grad: 0.97803
+[2019-05-27 23:53:12,262] Valid metrics: loss: 0.51474 | metrics.Dice: -0.63789
+
+[2019-05-27 23:53:12,297] Epoch 71 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:55:22,021] Train metrics: loss: 0.38077 | metrics.Dice: -0.72753 | grad: 1.00738
+[2019-05-27 23:55:22,021] Valid metrics: loss: 0.51504 | metrics.Dice: -0.63358
+
+[2019-05-27 23:55:22,021] Epoch 72 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:57:24,852] Train metrics: loss: 0.37720 | metrics.Dice: -0.72880 | grad: 0.97371
+[2019-05-27 23:57:24,852] Valid metrics: loss: 0.51555 | metrics.Dice: -0.63710
+
+[2019-05-27 23:57:24,852] Epoch 73 | optimizer "Adam" | lr 0.0003
+[2019-05-27 23:59:26,810] Train metrics: loss: 0.37497 | metrics.Dice: -0.73039 | grad: 0.97719
+[2019-05-27 23:59:26,810] Valid metrics: loss: 0.52920 | metrics.Dice: -0.62755
+
+[2019-05-27 23:59:26,810] Epoch 74 | optimizer "Adam" | lr 0.0003
+[2019-05-28 00:01:33,161] Train metrics: loss: 0.37715 | metrics.Dice: -0.72897 | grad: 0.96701
+[2019-05-28 00:01:33,161] Valid metrics: loss: 0.52594 | metrics.Dice: -0.63061
+
+[2019-05-28 00:01:33,161] Epoch 75 | optimizer "Adam" | lr 0.0003
+[2019-05-28 00:03:38,195] Train metrics: loss: 0.37743 | metrics.Dice: -0.72913 | grad: 0.99252
+[2019-05-28 00:03:38,196] Valid metrics: loss: 0.51695 | metrics.Dice: -0.63203
+
+[2019-05-28 00:03:38,196] Epoch 76 | optimizer "Adam" | lr 0.0003
+[2019-05-28 00:05:40,138] Train metrics: loss: 0.37146 | metrics.Dice: -0.73304 | grad: 0.95671
+[2019-05-28 00:05:40,138] Valid metrics: loss: 0.52508 | metrics.Dice: -0.62904
+
+[2019-05-28 00:05:40,139] Epoch 77 | optimizer "Adam" | lr 0.0003
+[2019-05-28 00:07:41,466] Train metrics: loss: 0.37313 | metrics.Dice: -0.73198 | grad: 0.99372
+[2019-05-28 00:07:41,466] Valid metrics: loss: 0.53034 | metrics.Dice: -0.62733
+
+[2019-05-28 00:07:41,466] Epoch 78 | optimizer "Adam" | lr 0.0003
+[2019-05-28 00:09:48,088] Train metrics: loss: 0.37411 | metrics.Dice: -0.73220 | grad: 0.99623
+[2019-05-28 00:09:48,088] Valid metrics: loss: 0.51892 | metrics.Dice: -0.63195
+
+[2019-05-28 00:09:48,088] Epoch 79 | optimizer "Adam" | lr 0.0003
+[2019-05-28 00:11:57,756] Train metrics: loss: 0.37273 | metrics.Dice: -0.73245 | grad: 0.99243
+[2019-05-28 00:11:57,756] Valid metrics: loss: 0.52141 | metrics.Dice: -0.63196
+
+[2019-05-28 00:11:57,756] Epoch 80 | optimizer "Adam" | lr 0.0003
+[2019-05-28 00:13:57,024] Train metrics: loss: 0.36930 | metrics.Dice: -0.73459 | grad: 0.98556
+[2019-05-28 00:13:57,024] Valid metrics: loss: 0.50357 | metrics.Dice: -0.64423
+
+[2019-05-28 00:13:57,066] Epoch 81 | optimizer "Adam" | lr 0.0003
+[2019-05-28 00:15:58,715] Train metrics: loss: 0.37257 | metrics.Dice: -0.73273 | grad: 0.94872
+[2019-05-28 00:15:58,716] Valid metrics: loss: 0.52134 | metrics.Dice: -0.63232
+
+[2019-05-28 00:15:58,716] Epoch 82 | optimizer "Adam" | lr 0.0003
+[2019-05-28 00:18:08,784] Train metrics: loss: 0.37417 | metrics.Dice: -0.73194 | grad: 1.04924
+[2019-05-28 00:18:08,784] Valid metrics: loss: 0.52802 | metrics.Dice: -0.62584
+
+[2019-05-28 00:18:08,784] Epoch 83 | optimizer "Adam" | lr 0.0003
+[2019-05-28 00:20:11,186] Train metrics: loss: 0.36974 | metrics.Dice: -0.73390 | grad: 0.99305
+[2019-05-28 00:20:11,186] Valid metrics: loss: 0.51771 | metrics.Dice: -0.63091
+
+[2019-05-28 00:20:11,186] Epoch 84 | optimizer "Adam" | lr 0.0003
+[2019-05-28 00:22:13,128] Train metrics: loss: 0.36742 | metrics.Dice: -0.73635 | grad: 0.96783
+[2019-05-28 00:22:13,129] Valid metrics: loss: 0.52942 | metrics.Dice: -0.63016
+
+[2019-05-28 00:22:13,129] Epoch 85 | optimizer "Adam" | lr 0.0003
+[2019-05-28 00:24:18,988] Train metrics: loss: 0.37027 | metrics.Dice: -0.73484 | grad: 1.01896
+[2019-05-28 00:24:18,988] Valid metrics: loss: 0.51654 | metrics.Dice: -0.63348
+
+[2019-05-28 00:24:18,988] Epoch 86 | optimizer "Adam" | lr 0.0003
+[2019-05-28 00:26:30,220] Train metrics: loss: 0.36428 | metrics.Dice: -0.73851 | grad: 0.95668
+[2019-05-28 00:26:30,220] Valid metrics: loss: 0.53288 | metrics.Dice: -0.62690
+
+[2019-05-28 00:26:30,220] Epoch 87 | optimizer "Adam" | lr 0.0003
+[2019-05-28 00:28:34,741] Train metrics: loss: 0.36823 | metrics.Dice: -0.73537 | grad: 0.97962
+[2019-05-28 00:28:34,742] Valid metrics: loss: 0.53452 | metrics.Dice: -0.62613
+
+[2019-05-28 00:28:34,742] Epoch 88 | optimizer "Adam" | lr 0.0003
+[2019-05-28 00:30:38,356] Train metrics: loss: 0.36789 | metrics.Dice: -0.73629 | grad: 1.01937
+[2019-05-28 00:30:38,356] Valid metrics: loss: 0.53169 | metrics.Dice: -0.62217
+
+[2019-05-28 00:30:38,356] Epoch 89 | optimizer "Adam" | lr 0.0003
+[2019-05-28 00:32:46,134] Train metrics: loss: 0.36755 | metrics.Dice: -0.73625 | grad: 0.99731
+[2019-05-28 00:32:46,134] Valid metrics: loss: 0.53807 | metrics.Dice: -0.62039
+
+[2019-05-28 00:32:46,134] Epoch 90 | optimizer "Adam" | lr 0.0003
+[2019-05-28 00:34:50,270] Train metrics: loss: 0.36318 | metrics.Dice: -0.73870 | grad: 0.96015
+[2019-05-28 00:34:50,270] Valid metrics: loss: 0.52366 | metrics.Dice: -0.63398
+
+[2019-05-28 00:34:50,270] Epoch 91 | optimizer "Adam" | lr 0.0003
+[2019-05-28 00:36:51,917] Train metrics: loss: 0.36374 | metrics.Dice: -0.73917 | grad: 0.97191
+[2019-05-28 00:36:51,917] Valid metrics: loss: 0.52155 | metrics.Dice: -0.63193
+
+[2019-05-28 00:36:51,917] Epoch 92 | optimizer "Adam" | lr 0.0003
+[2019-05-28 00:38:55,184] Train metrics: loss: 0.36652 | metrics.Dice: -0.73670 | grad: 1.00905
+[2019-05-28 00:38:55,185] Valid metrics: loss: 0.50457 | metrics.Dice: -0.64265
+
+[2019-05-28 00:38:55,185] Epoch 93 | optimizer "Adam" | lr 0.0003
+[2019-05-28 00:41:01,095] Train metrics: loss: 0.36071 | metrics.Dice: -0.74100 | grad: 0.95593
+[2019-05-28 00:41:01,096] Valid metrics: loss: 0.52419 | metrics.Dice: -0.62943
+
+[2019-05-28 00:41:01,096] Epoch 94 | optimizer "Adam" | lr 0.0003
+[2019-05-28 00:43:01,455] Train metrics: loss: 0.36043 | metrics.Dice: -0.74081 | grad: 0.95956
+[2019-05-28 00:43:01,455] Valid metrics: loss: 0.50798 | metrics.Dice: -0.64275
+
+[2019-05-28 00:43:01,455] Epoch 95 | optimizer "Adam" | lr 0.0003
+[2019-05-28 00:45:01,544] Train metrics: loss: 0.35720 | metrics.Dice: -0.74321 | grad: 0.95726
+[2019-05-28 00:45:01,544] Valid metrics: loss: 0.52987 | metrics.Dice: -0.63046
+
+[2019-05-28 00:45:01,544] Epoch 96 | optimizer "Adam" | lr 0.0003
+[2019-05-28 00:47:11,322] Train metrics: loss: 0.35795 | metrics.Dice: -0.74289 | grad: 0.99111
+[2019-05-28 00:47:11,322] Valid metrics: loss: 0.53739 | metrics.Dice: -0.62402
+
+[2019-05-28 00:47:11,322] Epoch 97 | optimizer "Adam" | lr 0.00015
+[2019-05-28 00:49:12,691] Train metrics: loss: 0.34541 | metrics.Dice: -0.75155 | grad: 0.91136
+[2019-05-28 00:49:12,691] Valid metrics: loss: 0.51114 | metrics.Dice: -0.64147
+
+[2019-05-28 00:49:12,692] Epoch 98 | optimizer "Adam" | lr 0.00015
+[2019-05-28 00:51:13,507] Train metrics: loss: 0.34222 | metrics.Dice: -0.75368 | grad: 0.90184
+[2019-05-28 00:51:13,507] Valid metrics: loss: 0.50611 | metrics.Dice: -0.64137
+
+[2019-05-28 00:51:13,508] Epoch 99 | optimizer "Adam" | lr 0.00015
+[2019-05-28 00:53:14,803] Train metrics: loss: 0.33993 | metrics.Dice: -0.75555 | grad: 0.91427
+[2019-05-28 00:53:14,803] Valid metrics: loss: 0.51756 | metrics.Dice: -0.63439
+
+[2019-05-28 00:53:14,804] Epoch 100 | optimizer "Adam" | lr 0.00015
+[2019-05-28 00:55:21,707] Train metrics: loss: 0.34070 | metrics.Dice: -0.75486 | grad: 0.91003
+[2019-05-28 00:55:21,707] Valid metrics: loss: 0.51542 | metrics.Dice: -0.63565
+
+[2019-05-28 00:55:21,707] Epoch 101 | optimizer "Adam" | lr 0.00015
+[2019-05-28 00:57:23,087] Train metrics: loss: 0.33707 | metrics.Dice: -0.75780 | grad: 0.89661
+[2019-05-28 00:57:23,087] Valid metrics: loss: 0.51391 | metrics.Dice: -0.63720
+
+[2019-05-28 00:57:23,088] Epoch 102 | optimizer "Adam" | lr 0.00015
+[2019-05-28 00:59:23,497] Train metrics: loss: 0.33697 | metrics.Dice: -0.75798 | grad: 0.89113
+[2019-05-28 00:59:23,497] Valid metrics: loss: 0.52074 | metrics.Dice: -0.63935
+
+[2019-05-28 00:59:23,497] Epoch 103 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:01:26,558] Train metrics: loss: 0.33413 | metrics.Dice: -0.75989 | grad: 0.88896
+[2019-05-28 01:01:26,558] Valid metrics: loss: 0.50692 | metrics.Dice: -0.64389
+
+[2019-05-28 01:01:26,559] Epoch 104 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:03:35,154] Train metrics: loss: 0.33033 | metrics.Dice: -0.76233 | grad: 0.85678
+[2019-05-28 01:03:35,154] Valid metrics: loss: 0.50631 | metrics.Dice: -0.64544
+
+[2019-05-28 01:03:35,192] Epoch 105 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:05:36,063] Train metrics: loss: 0.33538 | metrics.Dice: -0.75935 | grad: 0.91546
+[2019-05-28 01:05:36,063] Valid metrics: loss: 0.53456 | metrics.Dice: -0.62713
+
+[2019-05-28 01:05:36,063] Epoch 106 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:07:35,950] Train metrics: loss: 0.33371 | metrics.Dice: -0.76063 | grad: 0.89265
+[2019-05-28 01:07:35,950] Valid metrics: loss: 0.53103 | metrics.Dice: -0.63012
+
+[2019-05-28 01:07:35,950] Epoch 107 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:09:45,458] Train metrics: loss: 0.33218 | metrics.Dice: -0.76184 | grad: 0.88980
+[2019-05-28 01:09:45,458] Valid metrics: loss: 0.52140 | metrics.Dice: -0.63798
+
+[2019-05-28 01:09:45,458] Epoch 108 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:11:45,405] Train metrics: loss: 0.33215 | metrics.Dice: -0.76192 | grad: 0.92421
+[2019-05-28 01:11:45,406] Valid metrics: loss: 0.52231 | metrics.Dice: -0.63842
+
+[2019-05-28 01:11:45,406] Epoch 109 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:13:45,112] Train metrics: loss: 0.32967 | metrics.Dice: -0.76307 | grad: 0.89983
+[2019-05-28 01:13:45,112] Valid metrics: loss: 0.52552 | metrics.Dice: -0.63427
+
+[2019-05-28 01:13:45,112] Epoch 110 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:15:47,509] Train metrics: loss: 0.33252 | metrics.Dice: -0.76126 | grad: 0.90910
+[2019-05-28 01:15:47,509] Valid metrics: loss: 0.50907 | metrics.Dice: -0.64609
+
+[2019-05-28 01:15:47,564] Epoch 111 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:17:54,366] Train metrics: loss: 0.32764 | metrics.Dice: -0.76508 | grad: 0.87074
+[2019-05-28 01:17:54,366] Valid metrics: loss: 0.52668 | metrics.Dice: -0.63106
+
+[2019-05-28 01:17:54,366] Epoch 112 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:19:56,383] Train metrics: loss: 0.32890 | metrics.Dice: -0.76405 | grad: 0.89877
+[2019-05-28 01:19:56,383] Valid metrics: loss: 0.52072 | metrics.Dice: -0.63760
+
+[2019-05-28 01:19:56,384] Epoch 113 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:21:56,816] Train metrics: loss: 0.32972 | metrics.Dice: -0.76378 | grad: 0.91260
+[2019-05-28 01:21:56,816] Valid metrics: loss: 0.51383 | metrics.Dice: -0.64088
+
+[2019-05-28 01:21:56,816] Epoch 114 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:23:57,622] Train metrics: loss: 0.32493 | metrics.Dice: -0.76648 | grad: 0.88451
+[2019-05-28 01:23:57,622] Valid metrics: loss: 0.52963 | metrics.Dice: -0.63088
+
+[2019-05-28 01:23:57,622] Epoch 115 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:26:04,773] Train metrics: loss: 0.32619 | metrics.Dice: -0.76595 | grad: 0.91467
+[2019-05-28 01:26:04,773] Valid metrics: loss: 0.53252 | metrics.Dice: -0.63069
+
+[2019-05-28 01:26:04,773] Epoch 116 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:28:06,358] Train metrics: loss: 0.32634 | metrics.Dice: -0.76606 | grad: 0.88784
+[2019-05-28 01:28:06,359] Valid metrics: loss: 0.52782 | metrics.Dice: -0.63248
+
+[2019-05-28 01:28:06,359] Epoch 117 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:30:08,616] Train metrics: loss: 0.32511 | metrics.Dice: -0.76690 | grad: 0.90452
+[2019-05-28 01:30:08,617] Valid metrics: loss: 0.53575 | metrics.Dice: -0.62535
+
+[2019-05-28 01:30:08,617] Epoch 118 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:32:09,286] Train metrics: loss: 0.32541 | metrics.Dice: -0.76652 | grad: 0.88886
+[2019-05-28 01:32:09,286] Valid metrics: loss: 0.53747 | metrics.Dice: -0.62883
+
+[2019-05-28 01:32:09,286] Epoch 119 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:34:10,004] Train metrics: loss: 0.32561 | metrics.Dice: -0.76659 | grad: 0.93096
+[2019-05-28 01:34:10,004] Valid metrics: loss: 0.52905 | metrics.Dice: -0.62987
+
+[2019-05-28 01:34:10,004] Epoch 120 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:36:10,517] Train metrics: loss: 0.32414 | metrics.Dice: -0.76727 | grad: 0.88748
+[2019-05-28 01:36:10,517] Valid metrics: loss: 0.51851 | metrics.Dice: -0.63706
+
+[2019-05-28 01:36:10,518] Epoch 121 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:38:10,452] Train metrics: loss: 0.32644 | metrics.Dice: -0.76578 | grad: 0.90658
+[2019-05-28 01:38:10,452] Valid metrics: loss: 0.52840 | metrics.Dice: -0.63627
+
+[2019-05-28 01:38:10,452] Epoch 122 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:40:11,352] Train metrics: loss: 0.32622 | metrics.Dice: -0.76617 | grad: 0.95069
+[2019-05-28 01:40:11,353] Valid metrics: loss: 0.53137 | metrics.Dice: -0.63321
+
+[2019-05-28 01:40:11,353] Epoch 123 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:42:15,651] Train metrics: loss: 0.32197 | metrics.Dice: -0.76876 | grad: 0.92763
+[2019-05-28 01:42:15,651] Valid metrics: loss: 0.51707 | metrics.Dice: -0.64301
+
+[2019-05-28 01:42:15,652] Epoch 124 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:44:24,418] Train metrics: loss: 0.32407 | metrics.Dice: -0.76756 | grad: 0.93149
+[2019-05-28 01:44:24,418] Valid metrics: loss: 0.52793 | metrics.Dice: -0.63316
+
+[2019-05-28 01:44:24,418] Epoch 125 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:46:26,857] Train metrics: loss: 0.31858 | metrics.Dice: -0.77143 | grad: 0.92256
+[2019-05-28 01:46:26,858] Valid metrics: loss: 0.52654 | metrics.Dice: -0.63296
+
+[2019-05-28 01:46:26,858] Epoch 126 | optimizer "Adam" | lr 0.00015
+[2019-05-28 01:48:32,971] Train metrics: loss: 0.32013 | metrics.Dice: -0.77075 | grad: 0.92794
+[2019-05-28 01:48:32,971] Valid metrics: loss: 0.52049 | metrics.Dice: -0.63758
+
+[2019-05-28 01:48:32,971] Epoch 127 | optimizer "Adam" | lr 7.5e-05
+[2019-05-28 01:50:40,222] Train metrics: loss: 0.31657 | metrics.Dice: -0.77242 | grad: 0.88199
+[2019-05-28 01:50:40,222] Valid metrics: loss: 0.51890 | metrics.Dice: -0.64136
+
+[2019-05-28 01:50:40,222] Epoch 128 | optimizer "Adam" | lr 7.5e-05
+[2019-05-28 01:52:45,664] Train metrics: loss: 0.31618 | metrics.Dice: -0.77315 | grad: 0.88610
+[2019-05-28 01:52:45,664] Valid metrics: loss: 0.50865 | metrics.Dice: -0.64521
+
+[2019-05-28 01:52:45,664] Epoch 129 | optimizer "Adam" | lr 7.5e-05
+[2019-05-28 01:54:46,005] Train metrics: loss: 0.31509 | metrics.Dice: -0.77357 | grad: 0.89402
+[2019-05-28 01:54:46,006] Valid metrics: loss: 0.52384 | metrics.Dice: -0.63770
+
+[2019-05-28 01:54:46,006] Epoch 130 | optimizer "Adam" | lr 7.5e-05
+[2019-05-28 01:56:50,205] Train metrics: loss: 0.31633 | metrics.Dice: -0.77309 | grad: 0.89831
+[2019-05-28 01:56:50,206] Valid metrics: loss: 0.51690 | metrics.Dice: -0.64246
+
+[2019-05-28 01:56:50,206] Epoch 131 | optimizer "Adam" | lr 7.5e-05
+[2019-05-28 01:58:53,458] Train metrics: loss: 0.31439 | metrics.Dice: -0.77422 | grad: 0.88413
+[2019-05-28 01:58:53,458] Valid metrics: loss: 0.51959 | metrics.Dice: -0.63956
+
+[2019-05-28 01:58:53,458] Epoch 132 | optimizer "Adam" | lr 7.5e-05
+[2019-05-28 02:00:54,076] Train metrics: loss: 0.31447 | metrics.Dice: -0.77456 | grad: 0.88898
+[2019-05-28 02:00:54,076] Valid metrics: loss: 0.52411 | metrics.Dice: -0.63807
+
+[2019-05-28 02:00:54,076] Epoch 133 | optimizer "Adam" | lr 7.5e-05
+[2019-05-28 02:02:56,654] Train metrics: loss: 0.31343 | metrics.Dice: -0.77506 | grad: 0.89274
+[2019-05-28 02:02:56,654] Valid metrics: loss: 0.51891 | metrics.Dice: -0.64134
+
+[2019-05-28 02:02:56,654] Epoch 134 | optimizer "Adam" | lr 7.5e-05
+[2019-05-28 02:05:03,664] Train metrics: loss: 0.31437 | metrics.Dice: -0.77406 | grad: 0.87386
+[2019-05-28 02:05:03,664] Valid metrics: loss: 0.52250 | metrics.Dice: -0.63957
+
+[2019-05-28 02:05:03,664] Epoch 135 | optimizer "Adam" | lr 7.5e-05
+[2019-05-28 02:07:10,125] Train metrics: loss: 0.31334 | metrics.Dice: -0.77508 | grad: 0.91460
+[2019-05-28 02:07:10,125] Valid metrics: loss: 0.53139 | metrics.Dice: -0.63496
+
+[2019-05-28 02:07:10,125] Epoch 136 | optimizer "Adam" | lr 7.5e-05
+[2019-05-28 02:09:10,543] Train metrics: loss: 0.31285 | metrics.Dice: -0.77565 | grad: 0.92511
+[2019-05-28 02:09:10,543] Valid metrics: loss: 0.51881 | metrics.Dice: -0.63984
+
+[2019-05-28 02:09:10,543] Epoch 137 | optimizer "Adam" | lr 7.5e-05
+[2019-05-28 02:11:13,494] Train metrics: loss: 0.31075 | metrics.Dice: -0.77711 | grad: 0.89320
+[2019-05-28 02:11:13,495] Valid metrics: loss: 0.51818 | metrics.Dice: -0.64267
+
+[2019-05-28 02:11:13,495] Epoch 138 | optimizer "Adam" | lr 7.5e-05
+[2019-05-28 02:13:22,755] Train metrics: loss: 0.31224 | metrics.Dice: -0.77595 | grad: 0.90360
+[2019-05-28 02:13:22,755] Valid metrics: loss: 0.52511 | metrics.Dice: -0.63827
+
+[2019-05-28 02:13:22,755] Epoch 139 | optimizer "Adam" | lr 7.5e-05
+[2019-05-28 02:15:25,418] Train metrics: loss: 0.31070 | metrics.Dice: -0.77694 | grad: 0.88220
+[2019-05-28 02:15:25,419] Valid metrics: loss: 0.52619 | metrics.Dice: -0.63770
+
+[2019-05-28 02:15:25,419] Epoch 140 | optimizer "Adam" | lr 7.5e-05
+[2019-05-28 02:17:27,287] Train metrics: loss: 0.30767 | metrics.Dice: -0.77887 | grad: 0.88292
+[2019-05-28 02:17:27,288] Valid metrics: loss: 0.52723 | metrics.Dice: -0.63656
+
+[2019-05-28 02:17:27,288] Epoch 141 | optimizer "Adam" | lr 7.5e-05
+[2019-05-28 02:19:30,726] Train metrics: loss: 0.31009 | metrics.Dice: -0.77745 | grad: 0.89110
+[2019-05-28 02:19:30,726] Valid metrics: loss: 0.51812 | metrics.Dice: -0.64111
+
+[2019-05-28 02:19:30,726] Epoch 142 | optimizer "Adam" | lr 7.5e-05
+[2019-05-28 02:21:39,195] Train metrics: loss: 0.30721 | metrics.Dice: -0.77930 | grad: 0.89069
+[2019-05-28 02:21:39,195] Valid metrics: loss: 0.51671 | metrics.Dice: -0.64411
+
+[2019-05-28 02:21:39,195] Epoch 143 | optimizer "Adam" | lr 3.75e-05
+[2019-05-28 02:23:41,202] Train metrics: loss: 0.30988 | metrics.Dice: -0.77816 | grad: 0.87219
+[2019-05-28 02:23:41,202] Valid metrics: loss: 0.52419 | metrics.Dice: -0.63593
+
+[2019-05-28 02:23:41,202] Epoch 144 | optimizer "Adam" | lr 3.75e-05
+[2019-05-28 02:25:42,286] Train metrics: loss: 0.30393 | metrics.Dice: -0.78131 | grad: 0.85327
+[2019-05-28 02:25:42,286] Valid metrics: loss: 0.52461 | metrics.Dice: -0.63856
+
+[2019-05-28 02:25:42,286] Epoch 145 | optimizer "Adam" | lr 3.75e-05
+[2019-05-28 02:27:48,763] Train metrics: loss: 0.30203 | metrics.Dice: -0.78282 | grad: 0.83654
+[2019-05-28 02:27:48,763] Valid metrics: loss: 0.52488 | metrics.Dice: -0.63787
+
+[2019-05-28 02:27:48,763] Epoch 146 | optimizer "Adam" | lr 3.75e-05
+[2019-05-28 02:29:53,829] Train metrics: loss: 0.30416 | metrics.Dice: -0.78169 | grad: 0.84539
+[2019-05-28 02:29:53,829] Valid metrics: loss: 0.53254 | metrics.Dice: -0.63396
+
+[2019-05-28 02:29:53,829] Epoch 147 | optimizer "Adam" | lr 3.75e-05
+[2019-05-28 02:31:54,672] Train metrics: loss: 0.30457 | metrics.Dice: -0.78174 | grad: 0.87668
+[2019-05-28 02:31:54,672] Valid metrics: loss: 0.52203 | metrics.Dice: -0.63914
+
+[2019-05-28 02:31:54,672] Epoch 148 | optimizer "Adam" | lr 3.75e-05
+[2019-05-28 02:33:55,849] Train metrics: loss: 0.30325 | metrics.Dice: -0.78256 | grad: 0.86361
+[2019-05-28 02:33:55,849] Valid metrics: loss: 0.52402 | metrics.Dice: -0.63852
+
+[2019-05-28 02:33:55,849] Epoch 149 | optimizer "Adam" | lr 3.75e-05
+[2019-05-28 02:36:02,582] Train metrics: loss: 0.30420 | metrics.Dice: -0.78197 | grad: 0.86082
+[2019-05-28 02:36:02,582] Valid metrics: loss: 0.51870 | metrics.Dice: -0.64311
+
+[2019-05-28 02:36:02,582] Epoch 150 | optimizer "Adam" | lr 3.75e-05
+[2019-05-28 02:38:04,658] Train metrics: loss: 0.30282 | metrics.Dice: -0.78272 | grad: 0.84421
+[2019-05-28 02:38:04,658] Valid metrics: loss: 0.52256 | metrics.Dice: -0.64018
+
+[2019-05-28 02:38:04,658] Epoch 151 | optimizer "Adam" | lr 3.75e-05
+[2019-05-28 02:40:06,139] Train metrics: loss: 0.30416 | metrics.Dice: -0.78166 | grad: 0.87505
+[2019-05-28 02:40:06,139] Valid metrics: loss: 0.52587 | metrics.Dice: -0.63822
+
+[2019-05-28 02:40:06,140] Epoch 152 | optimizer "Adam" | lr 3.75e-05
+[2019-05-28 02:42:05,909] Train metrics: loss: 0.30360 | metrics.Dice: -0.78184 | grad: 0.88923
+[2019-05-28 02:42:05,909] Valid metrics: loss: 0.52251 | metrics.Dice: -0.64040
+
+[2019-05-28 02:42:05,909] Epoch 153 | optimizer "Adam" | lr 3.75e-05
+[2019-05-28 02:44:15,708] Train metrics: loss: 0.30039 | metrics.Dice: -0.78452 | grad: 0.86579
+[2019-05-28 02:44:15,709] Valid metrics: loss: 0.52025 | metrics.Dice: -0.64179
+
+[2019-05-28 02:44:15,709] Epoch 154 | optimizer "Adam" | lr 3.75e-05
+[2019-05-28 02:46:18,018] Train metrics: loss: 0.30218 | metrics.Dice: -0.78299 | grad: 0.84862
+[2019-05-28 02:46:18,018] Valid metrics: loss: 0.51919 | metrics.Dice: -0.64246
+
+[2019-05-28 02:46:18,018] Epoch 155 | optimizer "Adam" | lr 3.75e-05
+[2019-05-28 02:48:22,805] Train metrics: loss: 0.30450 | metrics.Dice: -0.78162 | grad: 0.88512
+[2019-05-28 02:48:22,805] Valid metrics: loss: 0.53203 | metrics.Dice: -0.63349
+
+[2019-05-28 02:48:22,805] Epoch 156 | optimizer "Adam" | lr 3.75e-05
+[2019-05-28 02:50:29,258] Train metrics: loss: 0.30185 | metrics.Dice: -0.78359 | grad: 0.85307
+[2019-05-28 02:50:29,258] Valid metrics: loss: 0.53083 | metrics.Dice: -0.63521
+
+[2019-05-28 02:50:29,258] Epoch 157 | optimizer "Adam" | lr 3.75e-05
+[2019-05-28 02:52:34,993] Train metrics: loss: 0.30260 | metrics.Dice: -0.78308 | grad: 0.86215
+[2019-05-28 02:52:34,993] Valid metrics: loss: 0.53014 | metrics.Dice: -0.63504
+
+[2019-05-28 02:52:34,993] Epoch 158 | optimizer "Adam" | lr 3.75e-05
+[2019-05-28 02:54:35,600] Train metrics: loss: 0.30426 | metrics.Dice: -0.78224 | grad: 0.89102
+[2019-05-28 02:54:35,601] Valid metrics: loss: 0.52460 | metrics.Dice: -0.63858
+
+[2019-05-28 02:54:35,601] Epoch 159 | optimizer "Adam" | lr 1.875e-05
+[2019-05-28 02:56:35,060] Train metrics: loss: 0.29911 | metrics.Dice: -0.78467 | grad: 0.83902
+[2019-05-28 02:56:35,060] Valid metrics: loss: 0.52309 | metrics.Dice: -0.63998
+
+[2019-05-28 02:56:35,060] Epoch 160 | optimizer "Adam" | lr 1.875e-05
+[2019-05-28 02:58:44,907] Train metrics: loss: 0.30129 | metrics.Dice: -0.78377 | grad: 0.86194
+[2019-05-28 02:58:44,908] Valid metrics: loss: 0.52281 | metrics.Dice: -0.64096
+
+[2019-05-28 02:58:44,908] Epoch 161 | optimizer "Adam" | lr 1.875e-05
+[2019-05-28 03:00:50,180] Train metrics: loss: 0.29810 | metrics.Dice: -0.78562 | grad: 0.84625
+[2019-05-28 03:00:50,180] Valid metrics: loss: 0.52336 | metrics.Dice: -0.64091
+
+[2019-05-28 03:00:50,180] Epoch 162 | optimizer "Adam" | lr 1.875e-05
+[2019-05-28 03:02:51,262] Train metrics: loss: 0.29771 | metrics.Dice: -0.78628 | grad: 0.86409
+[2019-05-28 03:02:51,262] Valid metrics: loss: 0.52368 | metrics.Dice: -0.63978
+
+[2019-05-28 03:02:51,262] Epoch 163 | optimizer "Adam" | lr 1.875e-05
+[2019-05-28 03:04:52,958] Train metrics: loss: 0.29787 | metrics.Dice: -0.78625 | grad: 0.85767
+[2019-05-28 03:04:52,958] Valid metrics: loss: 0.52472 | metrics.Dice: -0.63958
+
+[2019-05-28 03:04:52,959] Epoch 164 | optimizer "Adam" | lr 1.875e-05
+[2019-05-28 03:07:01,991] Train metrics: loss: 0.29838 | metrics.Dice: -0.78576 | grad: 0.86512
+[2019-05-28 03:07:01,992] Valid metrics: loss: 0.52791 | metrics.Dice: -0.63775
+
+[2019-05-28 03:07:01,992] Epoch 165 | optimizer "Adam" | lr 1.875e-05
+[2019-05-28 03:09:08,271] Train metrics: loss: 0.29854 | metrics.Dice: -0.78578 | grad: 0.85556
+[2019-05-28 03:09:08,271] Valid metrics: loss: 0.52585 | metrics.Dice: -0.63928
+
+[2019-05-28 03:09:08,271] Epoch 166 | optimizer "Adam" | lr 1.875e-05
+[2019-05-28 03:11:10,456] Train metrics: loss: 0.30118 | metrics.Dice: -0.78455 | grad: 0.86312
+[2019-05-28 03:11:10,456] Valid metrics: loss: 0.52352 | metrics.Dice: -0.64030
+
+[2019-05-28 03:11:10,456] Epoch 167 | optimizer "Adam" | lr 1.875e-05
+[2019-05-28 03:13:19,004] Train metrics: loss: 0.30000 | metrics.Dice: -0.78476 | grad: 0.88723
+[2019-05-28 03:13:19,004] Valid metrics: loss: 0.52963 | metrics.Dice: -0.63649
+
+[2019-05-28 03:13:19,005] Epoch 168 | optimizer "Adam" | lr 1.875e-05
+[2019-05-28 03:15:20,835] Train metrics: loss: 0.30050 | metrics.Dice: -0.78465 | grad: 0.88131
+[2019-05-28 03:15:20,836] Valid metrics: loss: 0.52838 | metrics.Dice: -0.63768
+
+[2019-05-28 03:15:20,836] Epoch 169 | optimizer "Adam" | lr 1.875e-05
+[2019-05-28 03:17:21,801] Train metrics: loss: 0.29884 | metrics.Dice: -0.78526 | grad: 0.83898
+[2019-05-28 03:17:21,801] Valid metrics: loss: 0.52513 | metrics.Dice: -0.63973
+
+[2019-05-28 03:17:21,801] Epoch 170 | optimizer "Adam" | lr 1.875e-05
+[2019-05-28 03:19:24,852] Train metrics: loss: 0.29936 | metrics.Dice: -0.78518 | grad: 0.86080
+[2019-05-28 03:19:24,852] Valid metrics: loss: 0.52465 | metrics.Dice: -0.63981
+
+[2019-05-28 03:19:24,852] Epoch 171 | optimizer "Adam" | lr 1.875e-05
+[2019-05-28 03:21:31,868] Train metrics: loss: 0.29899 | metrics.Dice: -0.78563 | grad: 0.83860
+[2019-05-28 03:21:31,868] Valid metrics: loss: 0.52599 | metrics.Dice: -0.63861
+
+[2019-05-28 03:21:31,868] Epoch 172 | optimizer "Adam" | lr 1.875e-05
+[2019-05-28 03:23:37,365] Train metrics: loss: 0.29749 | metrics.Dice: -0.78633 | grad: 0.84476
+[2019-05-28 03:23:37,365] Valid metrics: loss: 0.52515 | metrics.Dice: -0.64000
+
+[2019-05-28 03:23:37,366] Epoch 173 | optimizer "Adam" | lr 1.875e-05
+[2019-05-28 03:25:39,931] Train metrics: loss: 0.29678 | metrics.Dice: -0.78676 | grad: 0.86133
+[2019-05-28 03:25:39,932] Valid metrics: loss: 0.52491 | metrics.Dice: -0.64019
+
+[2019-05-28 03:25:39,932] Epoch 174 | optimizer "Adam" | lr 1.875e-05
+[2019-05-28 03:27:41,453] Train metrics: loss: 0.29590 | metrics.Dice: -0.78766 | grad: 0.86168
+[2019-05-28 03:27:41,453] Valid metrics: loss: 0.52596 | metrics.Dice: -0.63898
+
+[2019-05-28 03:27:41,453] Epoch 175 | optimizer "Adam" | lr 9.375e-06
+[2019-05-28 03:29:48,311] Train metrics: loss: 0.29875 | metrics.Dice: -0.78584 | grad: 0.86021
+[2019-05-28 03:29:48,312] Valid metrics: loss: 0.52306 | metrics.Dice: -0.64177
+
+[2019-05-28 03:29:48,312] Epoch 176 | optimizer "Adam" | lr 9.375e-06
+[2019-05-28 03:31:50,242] Train metrics: loss: 0.29491 | metrics.Dice: -0.78772 | grad: 0.86939
+[2019-05-28 03:31:50,242] Valid metrics: loss: 0.52582 | metrics.Dice: -0.64010
+
+[2019-05-28 03:31:50,242] Epoch 177 | optimizer "Adam" | lr 9.375e-06
+[2019-05-28 03:33:50,841] Train metrics: loss: 0.29793 | metrics.Dice: -0.78656 | grad: 0.86436
+[2019-05-28 03:33:50,841] Valid metrics: loss: 0.52440 | metrics.Dice: -0.64073
+
+[2019-05-28 03:33:50,841] Epoch 178 | optimizer "Adam" | lr 9.375e-06
+[2019-05-28 03:35:52,546] Train metrics: loss: 0.29811 | metrics.Dice: -0.78646 | grad: 0.86444
+[2019-05-28 03:35:52,546] Valid metrics: loss: 0.52452 | metrics.Dice: -0.64027
+
+[2019-05-28 03:35:52,546] Epoch 179 | optimizer "Adam" | lr 9.375e-06
+[2019-05-28 03:38:02,146] Train metrics: loss: 0.29889 | metrics.Dice: -0.78593 | grad: 0.85991
+[2019-05-28 03:38:02,146] Valid metrics: loss: 0.52395 | metrics.Dice: -0.64086
+
+[2019-05-28 03:38:02,146] Epoch 180 | optimizer "Adam" | lr 9.375e-06
+[2019-05-28 03:40:09,400] Train metrics: loss: 0.29656 | metrics.Dice: -0.78678 | grad: 0.85611
+[2019-05-28 03:40:09,401] Valid metrics: loss: 0.52517 | metrics.Dice: -0.63985
+
+[2019-05-28 03:40:09,401] Epoch 181 | optimizer "Adam" | lr 9.375e-06
+[2019-05-28 03:42:10,909] Train metrics: loss: 0.29549 | metrics.Dice: -0.78750 | grad: 0.84988
+[2019-05-28 03:42:10,909] Valid metrics: loss: 0.52308 | metrics.Dice: -0.64205
+
+[2019-05-28 03:42:10,909] Epoch 182 | optimizer "Adam" | lr 9.375e-06
+[2019-05-28 03:44:21,106] Train metrics: loss: 0.29679 | metrics.Dice: -0.78711 | grad: 0.84696
+[2019-05-28 03:44:21,106] Valid metrics: loss: 0.52470 | metrics.Dice: -0.64071
+
+[2019-05-28 03:44:21,106] Epoch 183 | optimizer "Adam" | lr 9.375e-06
+[2019-05-28 03:46:22,363] Train metrics: loss: 0.29827 | metrics.Dice: -0.78571 | grad: 0.86862
+[2019-05-28 03:46:22,363] Valid metrics: loss: 0.52497 | metrics.Dice: -0.64069
+
+[2019-05-28 03:46:22,363] Epoch 184 | optimizer "Adam" | lr 9.375e-06
+[2019-05-28 03:48:22,356] Train metrics: loss: 0.29684 | metrics.Dice: -0.78718 | grad: 0.87762
+[2019-05-28 03:48:22,356] Valid metrics: loss: 0.52570 | metrics.Dice: -0.63929
+
+[2019-05-28 03:48:22,356] Epoch 185 | optimizer "Adam" | lr 9.375e-06
+[2019-05-28 03:50:26,703] Train metrics: loss: 0.29751 | metrics.Dice: -0.78656 | grad: 0.86850
+[2019-05-28 03:50:26,703] Valid metrics: loss: 0.52391 | metrics.Dice: -0.64226
+
+[2019-05-28 03:50:26,703] Epoch 186 | optimizer "Adam" | lr 9.375e-06
+[2019-05-28 03:52:33,269] Train metrics: loss: 0.29569 | metrics.Dice: -0.78768 | grad: 0.84069
+[2019-05-28 03:52:33,270] Valid metrics: loss: 0.52611 | metrics.Dice: -0.64019
+
+[2019-05-28 03:52:33,270] Epoch 187 | optimizer "Adam" | lr 9.375e-06
+[2019-05-28 03:54:35,366] Train metrics: loss: 0.29578 | metrics.Dice: -0.78811 | grad: 0.84359
+[2019-05-28 03:54:35,366] Valid metrics: loss: 0.52490 | metrics.Dice: -0.64074
+
+[2019-05-28 03:54:35,366] Epoch 188 | optimizer "Adam" | lr 9.375e-06
+[2019-05-28 03:56:38,713] Train metrics: loss: 0.29867 | metrics.Dice: -0.78574 | grad: 0.86324
+[2019-05-28 03:56:38,714] Valid metrics: loss: 0.52508 | metrics.Dice: -0.63992
+
+[2019-05-28 03:56:38,714] Epoch 189 | optimizer "Adam" | lr 9.375e-06
+[2019-05-28 03:58:49,065] Train metrics: loss: 0.29717 | metrics.Dice: -0.78670 | grad: 0.85784
+[2019-05-28 03:58:49,065] Valid metrics: loss: 0.52465 | metrics.Dice: -0.64112
+
+[2019-05-28 03:58:49,065] Epoch 190 | optimizer "Adam" | lr 9.375e-06
+[2019-05-28 04:00:52,206] Train metrics: loss: 0.29786 | metrics.Dice: -0.78682 | grad: 0.86945
+[2019-05-28 04:00:52,207] Valid metrics: loss: 0.52591 | metrics.Dice: -0.64000
+
+[2019-05-28 04:00:52,207] Epoch 191 | optimizer "Adam" | lr 4.6875e-06
+[2019-05-28 04:02:53,607] Train metrics: loss: 0.29319 | metrics.Dice: -0.78925 | grad: 0.82309
+[2019-05-28 04:02:53,607] Valid metrics: loss: 0.52543 | metrics.Dice: -0.64036
+
+[2019-05-28 04:02:53,607] Epoch 192 | optimizer "Adam" | lr 4.6875e-06
+[2019-05-28 04:04:54,914] Train metrics: loss: 0.29565 | metrics.Dice: -0.78768 | grad: 0.84848
+[2019-05-28 04:04:54,914] Valid metrics: loss: 0.52473 | metrics.Dice: -0.64083
+
+[2019-05-28 04:04:54,914] Epoch 193 | optimizer "Adam" | lr 4.6875e-06
+[2019-05-28 04:07:03,617] Train metrics: loss: 0.29661 | metrics.Dice: -0.78739 | grad: 0.85130
+[2019-05-28 04:07:03,617] Valid metrics: loss: 0.52251 | metrics.Dice: -0.64223
+
+[2019-05-28 04:07:03,617] Epoch 194 | optimizer "Adam" | lr 4.6875e-06
+[2019-05-28 04:09:05,488] Train metrics: loss: 0.29586 | metrics.Dice: -0.78787 | grad: 0.84701
+[2019-05-28 04:09:05,488] Valid metrics: loss: 0.52252 | metrics.Dice: -0.64236
+
+[2019-05-28 04:09:05,488] Epoch 195 | optimizer "Adam" | lr 4.6875e-06
+[2019-05-28 04:11:07,835] Train metrics: loss: 0.29679 | metrics.Dice: -0.78743 | grad: 0.84282
+[2019-05-28 04:11:07,835] Valid metrics: loss: 0.52477 | metrics.Dice: -0.64087
+
+[2019-05-28 04:11:07,835] Epoch 196 | optimizer "Adam" | lr 4.6875e-06
+[2019-05-28 04:13:11,772] Train metrics: loss: 0.29436 | metrics.Dice: -0.78850 | grad: 0.85337
+[2019-05-28 04:13:11,772] Valid metrics: loss: 0.52438 | metrics.Dice: -0.64122
+
+[2019-05-28 04:13:11,773] Epoch 197 | optimizer "Adam" | lr 4.6875e-06
+[2019-05-28 04:15:18,932] Train metrics: loss: 0.29560 | metrics.Dice: -0.78813 | grad: 0.84685
+[2019-05-28 04:15:18,932] Valid metrics: loss: 0.52637 | metrics.Dice: -0.63962
+
+[2019-05-28 04:15:18,933] Epoch 198 | optimizer "Adam" | lr 4.6875e-06
+[2019-05-28 04:17:20,045] Train metrics: loss: 0.29568 | metrics.Dice: -0.78723 | grad: 0.85774
+[2019-05-28 04:17:20,045] Valid metrics: loss: 0.52536 | metrics.Dice: -0.64061
+
+[2019-05-28 04:17:20,045] Epoch 199 | optimizer "Adam" | lr 4.6875e-06
+[2019-05-28 04:19:19,015] Train metrics: loss: 0.29538 | metrics.Dice: -0.78801 | grad: 0.86234
+[2019-05-28 04:19:19,015] Valid metrics: loss: 0.52594 | metrics.Dice: -0.64046
+
+[2019-05-28 04:19:19,016] Epoch 200 | optimizer "Adam" | lr 4.6875e-06
+[2019-05-28 04:21:18,991] Train metrics: loss: 0.29447 | metrics.Dice: -0.78869 | grad: 0.84785
+[2019-05-28 04:21:18,992] Valid metrics: loss: 0.52587 | metrics.Dice: -0.64039
+
+[2019-05-28 04:21:18,992] Epoch 201 | optimizer "Adam" | lr 4.6875e-06
+[2019-05-28 04:23:29,656] Train metrics: loss: 0.29560 | metrics.Dice: -0.78785 | grad: 0.86398
+[2019-05-28 04:23:29,656] Valid metrics: loss: 0.52500 | metrics.Dice: -0.64085
+
+[2019-05-28 04:23:29,656] Epoch 202 | optimizer "Adam" | lr 4.6875e-06
+[2019-05-28 04:25:32,091] Train metrics: loss: 0.29705 | metrics.Dice: -0.78688 | grad: 0.85675
+[2019-05-28 04:25:32,091] Valid metrics: loss: 0.52411 | metrics.Dice: -0.64200
+
+[2019-05-28 04:25:32,091] Epoch 203 | optimizer "Adam" | lr 4.6875e-06
+[2019-05-28 04:27:34,045] Train metrics: loss: 0.29391 | metrics.Dice: -0.78934 | grad: 0.83938
+[2019-05-28 04:27:34,045] Valid metrics: loss: 0.52516 | metrics.Dice: -0.64079
+
+[2019-05-28 04:27:34,045] Epoch 204 | optimizer "Adam" | lr 4.6875e-06
+[2019-05-28 04:29:40,563] Train metrics: loss: 0.29441 | metrics.Dice: -0.78861 | grad: 0.84679
+[2019-05-28 04:29:40,563] Valid metrics: loss: 0.52527 | metrics.Dice: -0.64092
+
+[2019-05-28 04:29:40,563] Epoch 205 | optimizer "Adam" | lr 4.6875e-06
+[2019-05-28 04:31:46,930] Train metrics: loss: 0.29422 | metrics.Dice: -0.78905 | grad: 0.83042
+[2019-05-28 04:31:46,930] Valid metrics: loss: 0.52453 | metrics.Dice: -0.64126
+
+[2019-05-28 04:31:46,930] Epoch 206 | optimizer "Adam" | lr 4.6875e-06
+[2019-05-28 04:33:48,764] Train metrics: loss: 0.29655 | metrics.Dice: -0.78769 | grad: 0.84515
+[2019-05-28 04:33:48,764] Valid metrics: loss: 0.52506 | metrics.Dice: -0.64093
+
+[2019-05-28 04:33:48,764] Epoch 207 | optimizer "Adam" | lr 2.34375e-06
+[2019-05-28 04:35:50,735] Train metrics: loss: 0.29253 | metrics.Dice: -0.78985 | grad: 0.82035
+[2019-05-28 04:35:50,736] Valid metrics: loss: 0.52479 | metrics.Dice: -0.64100
+
+[2019-05-28 04:35:50,736] Epoch 208 | optimizer "Adam" | lr 2.34375e-06
+[2019-05-28 04:37:58,403] Train metrics: loss: 0.29377 | metrics.Dice: -0.78888 | grad: 0.84235
+[2019-05-28 04:37:58,403] Valid metrics: loss: 0.52518 | metrics.Dice: -0.64099
+
+[2019-05-28 04:37:58,403] Epoch 209 | optimizer "Adam" | lr 2.34375e-06
+[2019-05-28 04:40:00,789] Train metrics: loss: 0.29380 | metrics.Dice: -0.78919 | grad: 0.84221
+[2019-05-28 04:40:00,789] Valid metrics: loss: 0.52628 | metrics.Dice: -0.64015
+
+[2019-05-28 04:40:00,789] Epoch 210 | optimizer "Adam" | lr 2.34375e-06
+[2019-05-28 04:42:03,205] Train metrics: loss: 0.29482 | metrics.Dice: -0.78843 | grad: 0.83231
+[2019-05-28 04:42:03,206] Valid metrics: loss: 0.52630 | metrics.Dice: -0.64056
+
+[2019-05-28 04:42:03,206] Epoch 211 | optimizer "Adam" | lr 2.34375e-06
+[2019-05-28 04:44:08,730] Train metrics: loss: 0.29674 | metrics.Dice: -0.78734 | grad: 0.85117
+[2019-05-28 04:44:08,730] Valid metrics: loss: 0.52636 | metrics.Dice: -0.64012
+
+[2019-05-28 04:44:08,730] Epoch 212 | optimizer "Adam" | lr 2.34375e-06
+[2019-05-28 04:46:15,019] Train metrics: loss: 0.29562 | metrics.Dice: -0.78811 | grad: 0.83290
+[2019-05-28 04:46:15,019] Valid metrics: loss: 0.52482 | metrics.Dice: -0.64135
+
+[2019-05-28 04:46:15,019] Epoch 213 | optimizer "Adam" | lr 2.34375e-06
+[2019-05-28 04:48:14,914] Train metrics: loss: 0.29541 | metrics.Dice: -0.78841 | grad: 0.84466
+[2019-05-28 04:48:14,914] Valid metrics: loss: 0.52537 | metrics.Dice: -0.64102
+
+[2019-05-28 04:48:14,914] Epoch 214 | optimizer "Adam" | lr 2.34375e-06
+[2019-05-28 04:50:13,449] Train metrics: loss: 0.29333 | metrics.Dice: -0.78965 | grad: 0.83825
+[2019-05-28 04:50:13,449] Valid metrics: loss: 0.52547 | metrics.Dice: -0.64056
+
+[2019-05-28 04:50:13,449] Epoch 215 | optimizer "Adam" | lr 2.34375e-06
+[2019-05-28 04:52:17,903] Train metrics: loss: 0.29318 | metrics.Dice: -0.78944 | grad: 0.83072
+[2019-05-28 04:52:17,903] Valid metrics: loss: 0.52585 | metrics.Dice: -0.64030
+
+[2019-05-28 04:52:17,903] Epoch 216 | optimizer "Adam" | lr 2.34375e-06
+[2019-05-28 04:54:23,767] Train metrics: loss: 0.29495 | metrics.Dice: -0.78839 | grad: 0.84090
+[2019-05-28 04:54:23,767] Valid metrics: loss: 0.52565 | metrics.Dice: -0.64053
+
+[2019-05-28 04:54:23,767] Epoch 217 | optimizer "Adam" | lr 2.34375e-06
+[2019-05-28 04:56:25,528] Train metrics: loss: 0.29661 | metrics.Dice: -0.78739 | grad: 0.85132
+[2019-05-28 04:56:25,528] Valid metrics: loss: 0.52556 | metrics.Dice: -0.64083
+
+[2019-05-28 04:56:25,529] Epoch 218 | optimizer "Adam" | lr 2.34375e-06
+[2019-05-28 04:58:26,333] Train metrics: loss: 0.29304 | metrics.Dice: -0.78964 | grad: 0.83530
+[2019-05-28 04:58:26,333] Valid metrics: loss: 0.52592 | metrics.Dice: -0.64068
+
+[2019-05-28 04:58:26,333] Epoch 219 | optimizer "Adam" | lr 2.34375e-06
+[2019-05-28 05:00:41,469] Train metrics: loss: 0.29508 | metrics.Dice: -0.78864 | grad: 0.84214
+[2019-05-28 05:00:41,469] Valid metrics: loss: 0.52523 | metrics.Dice: -0.64093
+
+[2019-05-28 05:00:41,469] Epoch 220 | optimizer "Adam" | lr 2.34375e-06
+[2019-05-28 05:02:40,997] Train metrics: loss: 0.29464 | metrics.Dice: -0.78846 | grad: 0.85444
+[2019-05-28 05:02:40,998] Valid metrics: loss: 0.52575 | metrics.Dice: -0.64065
+
+[2019-05-28 05:02:40,998] Epoch 221 | optimizer "Adam" | lr 2.34375e-06
+[2019-05-28 05:04:42,518] Train metrics: loss: 0.29415 | metrics.Dice: -0.78849 | grad: 0.84364
+[2019-05-28 05:04:42,518] Valid metrics: loss: 0.52598 | metrics.Dice: -0.64047
+
+[2019-05-28 05:04:42,518] Epoch 222 | optimizer "Adam" | lr 2.34375e-06
+[2019-05-28 05:06:45,492] Train metrics: loss: 0.29342 | metrics.Dice: -0.78945 | grad: 0.83528
+[2019-05-28 05:06:45,492] Valid metrics: loss: 0.52522 | metrics.Dice: -0.64103
+
+[2019-05-28 05:06:45,492] Epoch 223 | optimizer "Adam" | lr 1.171875e-06
+[2019-05-28 05:08:53,681] Train metrics: loss: 0.29711 | metrics.Dice: -0.78723 | grad: 0.84511
+[2019-05-28 05:08:53,681] Valid metrics: loss: 0.52472 | metrics.Dice: -0.64142
+
+[2019-05-28 05:08:53,681] Epoch 224 | optimizer "Adam" | lr 1.171875e-06
+[2019-05-28 05:10:57,266] Train metrics: loss: 0.29176 | metrics.Dice: -0.79048 | grad: 0.83223
+[2019-05-28 05:10:57,267] Valid metrics: loss: 0.52470 | metrics.Dice: -0.64123
+
+[2019-05-28 05:10:57,267] Epoch 225 | optimizer "Adam" | lr 1.171875e-06
+[2019-05-28 05:12:59,601] Train metrics: loss: 0.29517 | metrics.Dice: -0.78834 | grad: 0.86504
+[2019-05-28 05:12:59,602] Valid metrics: loss: 0.52429 | metrics.Dice: -0.64157
+
+[2019-05-28 05:12:59,602] Epoch 226 | optimizer "Adam" | lr 1.171875e-06
+[2019-05-28 05:15:08,647] Train metrics: loss: 0.29282 | metrics.Dice: -0.78970 | grad: 0.85199
+[2019-05-28 05:15:08,647] Valid metrics: loss: 0.52466 | metrics.Dice: -0.64129
+
+[2019-05-28 05:15:08,648] Epoch 227 | optimizer "Adam" | lr 1.171875e-06
+[2019-05-28 05:17:10,620] Train metrics: loss: 0.29523 | metrics.Dice: -0.78819 | grad: 0.84932
+[2019-05-28 05:17:10,621] Valid metrics: loss: 0.52447 | metrics.Dice: -0.64149
+
+[2019-05-28 05:17:10,621] Epoch 228 | optimizer "Adam" | lr 1.171875e-06
+[2019-05-28 05:19:12,462] Train metrics: loss: 0.29558 | metrics.Dice: -0.78829 | grad: 0.84847
+[2019-05-28 05:19:12,462] Valid metrics: loss: 0.52448 | metrics.Dice: -0.64125
+
+[2019-05-28 05:19:12,462] Epoch 229 | optimizer "Adam" | lr 1.171875e-06
+[2019-05-28 05:21:15,121] Train metrics: loss: 0.29237 | metrics.Dice: -0.78992 | grad: 0.84297
+[2019-05-28 05:21:15,121] Valid metrics: loss: 0.52425 | metrics.Dice: -0.64144
+
+[2019-05-28 05:21:15,121] Epoch 230 | optimizer "Adam" | lr 1.171875e-06
+[2019-05-28 05:23:22,931] Train metrics: loss: 0.29347 | metrics.Dice: -0.78958 | grad: 0.83317
+[2019-05-28 05:23:22,931] Valid metrics: loss: 0.52443 | metrics.Dice: -0.64125
+
+[2019-05-28 05:23:22,931] Epoch 231 | optimizer "Adam" | lr 1.171875e-06
+[2019-05-28 05:25:24,895] Train metrics: loss: 0.29557 | metrics.Dice: -0.78823 | grad: 0.85078
+[2019-05-28 05:25:24,895] Valid metrics: loss: 0.52487 | metrics.Dice: -0.64120
+
+[2019-05-28 05:25:24,895] Epoch 232 | optimizer "Adam" | lr 1.171875e-06
+[2019-05-28 05:27:24,400] Train metrics: loss: 0.29505 | metrics.Dice: -0.78837 | grad: 0.83868
+[2019-05-28 05:27:24,400] Valid metrics: loss: 0.52487 | metrics.Dice: -0.64089
+
+[2019-05-28 05:27:24,401] Epoch 233 | optimizer "Adam" | lr 1.171875e-06
+[2019-05-28 05:29:28,462] Train metrics: loss: 0.29311 | metrics.Dice: -0.78930 | grad: 0.81503
+[2019-05-28 05:29:28,462] Valid metrics: loss: 0.52452 | metrics.Dice: -0.64114
+
+[2019-05-28 05:29:28,462] Epoch 234 | optimizer "Adam" | lr 1.171875e-06
+[2019-05-28 05:31:34,448] Train metrics: loss: 0.29542 | metrics.Dice: -0.78807 | grad: 0.83048
+[2019-05-28 05:31:34,448] Valid metrics: loss: 0.52448 | metrics.Dice: -0.64157
+
+[2019-05-28 05:31:34,448] Epoch 235 | optimizer "Adam" | lr 1.171875e-06
+[2019-05-28 05:33:34,159] Train metrics: loss: 0.29453 | metrics.Dice: -0.78857 | grad: 0.83527
+[2019-05-28 05:33:34,159] Valid metrics: loss: 0.52453 | metrics.Dice: -0.64144
+
+[2019-05-28 05:33:34,160] Epoch 236 | optimizer "Adam" | lr 1.171875e-06
+[2019-05-28 05:35:33,397] Train metrics: loss: 0.29305 | metrics.Dice: -0.78963 | grad: 0.81705
+[2019-05-28 05:35:33,397] Valid metrics: loss: 0.52451 | metrics.Dice: -0.64142
+
+[2019-05-28 05:35:33,398] Epoch 237 | optimizer "Adam" | lr 1.171875e-06
+[2019-05-28 05:37:42,611] Train metrics: loss: 0.29260 | metrics.Dice: -0.79008 | grad: 0.83296
+[2019-05-28 05:37:42,611] Valid metrics: loss: 0.52424 | metrics.Dice: -0.64143
+
+[2019-05-28 05:37:42,611] Epoch 238 | optimizer "Adam" | lr 1.171875e-06
+[2019-05-28 05:39:46,175] Train metrics: loss: 0.29330 | metrics.Dice: -0.78972 | grad: 0.83849
+[2019-05-28 05:39:46,175] Valid metrics: loss: 0.52404 | metrics.Dice: -0.64175
+
+[2019-05-28 05:39:46,175] Epoch 239 | optimizer "Adam" | lr 1e-06
+[2019-05-28 05:41:46,490] Train metrics: loss: 0.29200 | metrics.Dice: -0.79037 | grad: 0.82304
+[2019-05-28 05:41:46,491] Valid metrics: loss: 0.52489 | metrics.Dice: -0.64120
+
+[2019-05-28 05:41:46,491] Epoch 240 | optimizer "Adam" | lr 1e-06
+[2019-05-28 05:43:48,459] Train metrics: loss: 0.29405 | metrics.Dice: -0.78889 | grad: 0.82717
+[2019-05-28 05:43:48,459] Valid metrics: loss: 0.52464 | metrics.Dice: -0.64140
+
+[2019-05-28 05:43:48,459] Epoch 241 | optimizer "Adam" | lr 1e-06
+[2019-05-28 05:45:56,570] Train metrics: loss: 0.29304 | metrics.Dice: -0.78973 | grad: 0.84102
+[2019-05-28 05:45:56,570] Valid metrics: loss: 0.52436 | metrics.Dice: -0.64168
+
+[2019-05-28 05:45:56,570] Epoch 242 | optimizer "Adam" | lr 1e-06
+[2019-05-28 05:47:58,211] Train metrics: loss: 0.29333 | metrics.Dice: -0.78941 | grad: 0.84172
+[2019-05-28 05:47:58,211] Valid metrics: loss: 0.52458 | metrics.Dice: -0.64149
+
+[2019-05-28 05:47:58,211] Epoch 243 | optimizer "Adam" | lr 1e-06
+[2019-05-28 05:50:03,109] Train metrics: loss: 0.29205 | metrics.Dice: -0.79066 | grad: 0.85258
+[2019-05-28 05:50:03,110] Valid metrics: loss: 0.52423 | metrics.Dice: -0.64186
+
+[2019-05-28 05:50:03,110] Epoch 244 | optimizer "Adam" | lr 1e-06
+[2019-05-28 05:52:18,189] Train metrics: loss: 0.29545 | metrics.Dice: -0.78799 | grad: 0.86382
+[2019-05-28 05:52:18,190] Valid metrics: loss: 0.52473 | metrics.Dice: -0.64116
+
+[2019-05-28 05:52:18,190] Epoch 245 | optimizer "Adam" | lr 1e-06
+[2019-05-28 05:54:21,623] Train metrics: loss: 0.29402 | metrics.Dice: -0.78888 | grad: 0.83499
+[2019-05-28 05:54:21,623] Valid metrics: loss: 0.52466 | metrics.Dice: -0.64155
+
+[2019-05-28 05:54:21,623] Epoch 246 | optimizer "Adam" | lr 1e-06
+[2019-05-28 05:56:23,063] Train metrics: loss: 0.29439 | metrics.Dice: -0.78907 | grad: 0.83503
+[2019-05-28 05:56:23,063] Valid metrics: loss: 0.52436 | metrics.Dice: -0.64179
+
+[2019-05-28 05:56:23,063] Epoch 247 | optimizer "Adam" | lr 1e-06
+[2019-05-28 05:58:24,590] Train metrics: loss: 0.29350 | metrics.Dice: -0.78951 | grad: 0.83829
+[2019-05-28 05:58:24,590] Valid metrics: loss: 0.52448 | metrics.Dice: -0.64151
+
+[2019-05-28 05:58:24,591] Epoch 248 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:00:30,864] Train metrics: loss: 0.29235 | metrics.Dice: -0.79027 | grad: 0.82305
+[2019-05-28 06:00:30,865] Valid metrics: loss: 0.52458 | metrics.Dice: -0.64135
+
+[2019-05-28 06:00:30,865] Epoch 249 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:02:33,469] Train metrics: loss: 0.29236 | metrics.Dice: -0.79034 | grad: 0.82672
+[2019-05-28 06:02:33,470] Valid metrics: loss: 0.52445 | metrics.Dice: -0.64136
+
+[2019-05-28 06:02:33,470] Epoch 250 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:04:34,811] Train metrics: loss: 0.29346 | metrics.Dice: -0.78970 | grad: 0.84427
+[2019-05-28 06:04:34,811] Valid metrics: loss: 0.52447 | metrics.Dice: -0.64144
+
+[2019-05-28 06:04:34,811] Epoch 251 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:06:37,484] Train metrics: loss: 0.29287 | metrics.Dice: -0.78960 | grad: 0.84119
+[2019-05-28 06:06:37,484] Valid metrics: loss: 0.52441 | metrics.Dice: -0.64137
+
+[2019-05-28 06:06:37,484] Epoch 252 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:08:53,456] Train metrics: loss: 0.29254 | metrics.Dice: -0.78992 | grad: 0.84718
+[2019-05-28 06:08:53,456] Valid metrics: loss: 0.52440 | metrics.Dice: -0.64151
+
+[2019-05-28 06:08:53,456] Epoch 253 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:10:56,300] Train metrics: loss: 0.29394 | metrics.Dice: -0.78941 | grad: 0.83682
+[2019-05-28 06:10:56,300] Valid metrics: loss: 0.52484 | metrics.Dice: -0.64144
+
+[2019-05-28 06:10:56,300] Epoch 254 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:12:57,374] Train metrics: loss: 0.29364 | metrics.Dice: -0.78936 | grad: 0.83626
+[2019-05-28 06:12:57,374] Valid metrics: loss: 0.52467 | metrics.Dice: -0.64157
+
+[2019-05-28 06:12:57,374] Epoch 255 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:15:06,490] Train metrics: loss: 0.29168 | metrics.Dice: -0.79057 | grad: 0.82045
+[2019-05-28 06:15:06,490] Valid metrics: loss: 0.52463 | metrics.Dice: -0.64158
+
+[2019-05-28 06:15:06,491] Epoch 256 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:17:09,190] Train metrics: loss: 0.29346 | metrics.Dice: -0.78904 | grad: 0.82917
+[2019-05-28 06:17:09,190] Valid metrics: loss: 0.52443 | metrics.Dice: -0.64160
+
+[2019-05-28 06:17:09,190] Epoch 257 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:19:13,084] Train metrics: loss: 0.29498 | metrics.Dice: -0.78821 | grad: 0.85052
+[2019-05-28 06:19:13,085] Valid metrics: loss: 0.52431 | metrics.Dice: -0.64156
+
+[2019-05-28 06:19:13,085] Epoch 258 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:21:15,747] Train metrics: loss: 0.29499 | metrics.Dice: -0.78830 | grad: 0.84524
+[2019-05-28 06:21:15,747] Valid metrics: loss: 0.52487 | metrics.Dice: -0.64098
+
+[2019-05-28 06:21:15,748] Epoch 259 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:23:25,300] Train metrics: loss: 0.29139 | metrics.Dice: -0.79051 | grad: 0.82694
+[2019-05-28 06:23:25,300] Valid metrics: loss: 0.52478 | metrics.Dice: -0.64111
+
+[2019-05-28 06:23:25,300] Epoch 260 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:25:25,284] Train metrics: loss: 0.29464 | metrics.Dice: -0.78851 | grad: 0.85370
+[2019-05-28 06:25:25,284] Valid metrics: loss: 0.52450 | metrics.Dice: -0.64162
+
+[2019-05-28 06:25:25,285] Epoch 261 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:27:26,712] Train metrics: loss: 0.29410 | metrics.Dice: -0.78885 | grad: 0.84758
+[2019-05-28 06:27:26,713] Valid metrics: loss: 0.52507 | metrics.Dice: -0.64127
+
+[2019-05-28 06:27:26,713] Epoch 262 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:29:33,199] Train metrics: loss: 0.29462 | metrics.Dice: -0.78854 | grad: 0.83144
+[2019-05-28 06:29:33,199] Valid metrics: loss: 0.52507 | metrics.Dice: -0.64111
+
+[2019-05-28 06:29:33,199] Epoch 263 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:31:37,490] Train metrics: loss: 0.29348 | metrics.Dice: -0.78981 | grad: 0.84464
+[2019-05-28 06:31:37,490] Valid metrics: loss: 0.52483 | metrics.Dice: -0.64115
+
+[2019-05-28 06:31:37,491] Epoch 264 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:33:39,790] Train metrics: loss: 0.29392 | metrics.Dice: -0.78922 | grad: 0.82902
+[2019-05-28 06:33:39,791] Valid metrics: loss: 0.52500 | metrics.Dice: -0.64119
+
+[2019-05-28 06:33:39,791] Epoch 265 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:35:40,227] Train metrics: loss: 0.29274 | metrics.Dice: -0.78961 | grad: 0.83081
+[2019-05-28 06:35:40,228] Valid metrics: loss: 0.52417 | metrics.Dice: -0.64184
+
+[2019-05-28 06:35:40,228] Epoch 266 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:37:48,507] Train metrics: loss: 0.29481 | metrics.Dice: -0.78824 | grad: 0.83384
+[2019-05-28 06:37:48,507] Valid metrics: loss: 0.52462 | metrics.Dice: -0.64139
+
+[2019-05-28 06:37:48,507] Epoch 267 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:39:50,599] Train metrics: loss: 0.29152 | metrics.Dice: -0.79082 | grad: 0.82930
+[2019-05-28 06:39:50,599] Valid metrics: loss: 0.52469 | metrics.Dice: -0.64159
+
+[2019-05-28 06:39:50,599] Epoch 268 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:41:51,642] Train metrics: loss: 0.29264 | metrics.Dice: -0.78977 | grad: 0.83965
+[2019-05-28 06:41:51,642] Valid metrics: loss: 0.52447 | metrics.Dice: -0.64170
+
+[2019-05-28 06:41:51,642] Epoch 269 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:43:52,496] Train metrics: loss: 0.29348 | metrics.Dice: -0.78934 | grad: 0.85366
+[2019-05-28 06:43:52,496] Valid metrics: loss: 0.52421 | metrics.Dice: -0.64187
+
+[2019-05-28 06:43:52,496] Epoch 270 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:46:04,255] Train metrics: loss: 0.29295 | metrics.Dice: -0.78990 | grad: 0.83086
+[2019-05-28 06:46:04,255] Valid metrics: loss: 0.52446 | metrics.Dice: -0.64147
+
+[2019-05-28 06:46:04,256] Epoch 271 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:48:04,560] Train metrics: loss: 0.29535 | metrics.Dice: -0.78793 | grad: 0.84099
+[2019-05-28 06:48:04,560] Valid metrics: loss: 0.52440 | metrics.Dice: -0.64162
+
+[2019-05-28 06:48:04,560] Epoch 272 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:50:06,476] Train metrics: loss: 0.29397 | metrics.Dice: -0.78897 | grad: 0.85541
+[2019-05-28 06:50:06,476] Valid metrics: loss: 0.52441 | metrics.Dice: -0.64165
+
+[2019-05-28 06:50:06,476] Epoch 273 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:52:11,366] Train metrics: loss: 0.29092 | metrics.Dice: -0.79122 | grad: 0.81263
+[2019-05-28 06:52:11,367] Valid metrics: loss: 0.52465 | metrics.Dice: -0.64140
+
+[2019-05-28 06:52:11,367] Epoch 274 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:54:17,318] Train metrics: loss: 0.29255 | metrics.Dice: -0.78995 | grad: 0.83450
+[2019-05-28 06:54:17,318] Valid metrics: loss: 0.52455 | metrics.Dice: -0.64150
+
+[2019-05-28 06:54:17,318] Epoch 275 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:56:19,059] Train metrics: loss: 0.29297 | metrics.Dice: -0.78987 | grad: 0.83142
+[2019-05-28 06:56:19,059] Valid metrics: loss: 0.52477 | metrics.Dice: -0.64116
+
+[2019-05-28 06:56:19,059] Epoch 276 | optimizer "Adam" | lr 1e-06
+[2019-05-28 06:58:18,954] Train metrics: loss: 0.29484 | metrics.Dice: -0.78874 | grad: 0.85801
+[2019-05-28 06:58:18,954] Valid metrics: loss: 0.52430 | metrics.Dice: -0.64163
+
+[2019-05-28 06:58:18,955] Epoch 277 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:00:29,969] Train metrics: loss: 0.29169 | metrics.Dice: -0.79056 | grad: 0.83299
+[2019-05-28 07:00:29,969] Valid metrics: loss: 0.52449 | metrics.Dice: -0.64142
+
+[2019-05-28 07:00:29,969] Epoch 278 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:02:33,408] Train metrics: loss: 0.29309 | metrics.Dice: -0.78954 | grad: 0.83458
+[2019-05-28 07:02:33,409] Valid metrics: loss: 0.52462 | metrics.Dice: -0.64139
+
+[2019-05-28 07:02:33,409] Epoch 279 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:04:34,343] Train metrics: loss: 0.29357 | metrics.Dice: -0.78915 | grad: 0.84868
+[2019-05-28 07:04:34,343] Valid metrics: loss: 0.52440 | metrics.Dice: -0.64182
+
+[2019-05-28 07:04:34,343] Epoch 280 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:06:41,216] Train metrics: loss: 0.29212 | metrics.Dice: -0.79038 | grad: 0.82266
+[2019-05-28 07:06:41,216] Valid metrics: loss: 0.52474 | metrics.Dice: -0.64142
+
+[2019-05-28 07:06:41,216] Epoch 281 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:08:50,618] Train metrics: loss: 0.29281 | metrics.Dice: -0.78990 | grad: 0.81424
+[2019-05-28 07:08:50,618] Valid metrics: loss: 0.52490 | metrics.Dice: -0.64119
+
+[2019-05-28 07:08:50,618] Epoch 282 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:10:51,711] Train metrics: loss: 0.29414 | metrics.Dice: -0.78890 | grad: 0.83546
+[2019-05-28 07:10:51,712] Valid metrics: loss: 0.52496 | metrics.Dice: -0.64130
+
+[2019-05-28 07:10:51,712] Epoch 283 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:12:52,429] Train metrics: loss: 0.29196 | metrics.Dice: -0.79036 | grad: 0.83920
+[2019-05-28 07:12:52,429] Valid metrics: loss: 0.52457 | metrics.Dice: -0.64166
+
+[2019-05-28 07:12:52,429] Epoch 284 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:15:05,944] Train metrics: loss: 0.29466 | metrics.Dice: -0.78868 | grad: 0.84697
+[2019-05-28 07:15:05,944] Valid metrics: loss: 0.52483 | metrics.Dice: -0.64153
+
+[2019-05-28 07:15:05,944] Epoch 285 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:17:06,550] Train metrics: loss: 0.29300 | metrics.Dice: -0.78989 | grad: 0.81756
+[2019-05-28 07:17:06,550] Valid metrics: loss: 0.52523 | metrics.Dice: -0.64098
+
+[2019-05-28 07:17:06,550] Epoch 286 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:19:08,550] Train metrics: loss: 0.29358 | metrics.Dice: -0.78927 | grad: 0.84968
+[2019-05-28 07:19:08,550] Valid metrics: loss: 0.52473 | metrics.Dice: -0.64131
+
+[2019-05-28 07:19:08,550] Epoch 287 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:21:11,890] Train metrics: loss: 0.29361 | metrics.Dice: -0.78887 | grad: 0.84460
+[2019-05-28 07:21:11,890] Valid metrics: loss: 0.52450 | metrics.Dice: -0.64165
+
+[2019-05-28 07:21:11,890] Epoch 288 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:23:18,570] Train metrics: loss: 0.29570 | metrics.Dice: -0.78829 | grad: 0.83633
+[2019-05-28 07:23:18,570] Valid metrics: loss: 0.52452 | metrics.Dice: -0.64169
+
+[2019-05-28 07:23:18,570] Epoch 289 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:25:18,783] Train metrics: loss: 0.29436 | metrics.Dice: -0.78868 | grad: 0.84069
+[2019-05-28 07:25:18,783] Valid metrics: loss: 0.52439 | metrics.Dice: -0.64181
+
+[2019-05-28 07:25:18,784] Epoch 290 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:27:18,721] Train metrics: loss: 0.29210 | metrics.Dice: -0.79028 | grad: 0.83853
+[2019-05-28 07:27:18,722] Valid metrics: loss: 0.52451 | metrics.Dice: -0.64173
+
+[2019-05-28 07:27:18,722] Epoch 291 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:29:26,890] Train metrics: loss: 0.29198 | metrics.Dice: -0.79049 | grad: 0.82883
+[2019-05-28 07:29:26,890] Valid metrics: loss: 0.52444 | metrics.Dice: -0.64172
+
+[2019-05-28 07:29:26,890] Epoch 292 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:31:29,254] Train metrics: loss: 0.29431 | metrics.Dice: -0.78895 | grad: 0.83858
+[2019-05-28 07:31:29,254] Valid metrics: loss: 0.52435 | metrics.Dice: -0.64181
+
+[2019-05-28 07:31:29,254] Epoch 293 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:33:30,211] Train metrics: loss: 0.29372 | metrics.Dice: -0.78947 | grad: 0.85064
+[2019-05-28 07:33:30,211] Valid metrics: loss: 0.52459 | metrics.Dice: -0.64151
+
+[2019-05-28 07:33:30,211] Epoch 294 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:35:32,025] Train metrics: loss: 0.29493 | metrics.Dice: -0.78844 | grad: 0.84503
+[2019-05-28 07:35:32,025] Valid metrics: loss: 0.52467 | metrics.Dice: -0.64146
+
+[2019-05-28 07:35:32,026] Epoch 295 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:37:38,724] Train metrics: loss: 0.29390 | metrics.Dice: -0.78905 | grad: 0.83592
+[2019-05-28 07:37:38,724] Valid metrics: loss: 0.52448 | metrics.Dice: -0.64158
+
+[2019-05-28 07:37:38,724] Epoch 296 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:39:42,298] Train metrics: loss: 0.29473 | metrics.Dice: -0.78861 | grad: 0.83984
+[2019-05-28 07:39:42,298] Valid metrics: loss: 0.52445 | metrics.Dice: -0.64162
+
+[2019-05-28 07:39:42,298] Epoch 297 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:41:43,647] Train metrics: loss: 0.29479 | metrics.Dice: -0.78867 | grad: 0.84738
+[2019-05-28 07:41:43,647] Valid metrics: loss: 0.52494 | metrics.Dice: -0.64120
+
+[2019-05-28 07:41:43,648] Epoch 298 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:43:45,434] Train metrics: loss: 0.29141 | metrics.Dice: -0.79075 | grad: 0.83037
+[2019-05-28 07:43:45,434] Valid metrics: loss: 0.52481 | metrics.Dice: -0.64162
+
+[2019-05-28 07:43:45,434] Epoch 299 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:45:54,239] Train metrics: loss: 0.29446 | metrics.Dice: -0.78903 | grad: 0.85787
+[2019-05-28 07:45:54,239] Valid metrics: loss: 0.52517 | metrics.Dice: -0.64111
+
+[2019-05-28 07:45:54,239] Epoch 300 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:47:55,191] Train metrics: loss: 0.29328 | metrics.Dice: -0.78950 | grad: 0.83276
+[2019-05-28 07:47:55,192] Valid metrics: loss: 0.52470 | metrics.Dice: -0.64152
+
+[2019-05-28 07:47:55,192] Epoch 301 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:49:57,998] Train metrics: loss: 0.29181 | metrics.Dice: -0.79089 | grad: 0.81035
+[2019-05-28 07:49:57,998] Valid metrics: loss: 0.52426 | metrics.Dice: -0.64181
+
+[2019-05-28 07:49:57,998] Epoch 302 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:52:02,475] Train metrics: loss: 0.29460 | metrics.Dice: -0.78857 | grad: 0.84452
+[2019-05-28 07:52:02,475] Valid metrics: loss: 0.52426 | metrics.Dice: -0.64163
+
+[2019-05-28 07:52:02,475] Epoch 303 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:54:03,641] Train metrics: loss: 0.29009 | metrics.Dice: -0.79181 | grad: 0.81193
+[2019-05-28 07:54:03,641] Valid metrics: loss: 0.52438 | metrics.Dice: -0.64151
+
+[2019-05-28 07:54:03,641] Epoch 304 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:56:04,591] Train metrics: loss: 0.29328 | metrics.Dice: -0.78958 | grad: 0.83903
+[2019-05-28 07:56:04,591] Valid metrics: loss: 0.52414 | metrics.Dice: -0.64208
+
+[2019-05-28 07:56:04,591] Epoch 305 | optimizer "Adam" | lr 1e-06
+[2019-05-28 07:58:06,004] Train metrics: loss: 0.29377 | metrics.Dice: -0.78910 | grad: 0.84130
+[2019-05-28 07:58:06,004] Valid metrics: loss: 0.52408 | metrics.Dice: -0.64206
+
+[2019-05-28 07:58:06,004] Epoch 306 | optimizer "Adam" | lr 1e-06

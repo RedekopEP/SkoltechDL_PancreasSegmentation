@@ -1,0 +1,37 @@
+data_params:
+  batch_size: 8
+  num_workers: 16
+  augmentation_params:
+    resize: 224
+
+train_params:
+#  name: 3d_unet_full
+  name: unet2d_spatialAttention
+#  model: models_zoo.segmentation.pspnet.PSPNet
+  model: models_zoo.segmentation.unet.SpatialAttenUNet
+#  model: models_zoo.segmentation.unet3d.Modified3DUNet
+#  model: models_zoo.segmentation.unet.Modified3DUNet
+  model_params: {"n_classes":1}
+#    num_filters: 16
+#    pretrained: False
+#    num_classes: 1
+  loss: losses.LossBinaryDice
+  loss_params: {}
+  metrics: [metrics.Dice]
+  steps_per_epoch: 2500
+  new_save: True
+#  weights: ../weights/3d_unet_full/0/tt_1_0.14351.pt
+stages:
+-
+  load_best: False
+  optimizer: Adam
+  optimizer_params:
+    lr: 0.0003
+  scheduler: ReduceLROnPlateau
+  scheduler_params:
+    patience: 15
+    factor: 0.5
+    min_lr: 0.000001
+    verbose: True
+  epochs: 500
+  augmentation: mix_transform
